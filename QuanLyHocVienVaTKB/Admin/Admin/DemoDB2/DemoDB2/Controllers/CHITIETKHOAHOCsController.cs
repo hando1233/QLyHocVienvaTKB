@@ -7,12 +7,23 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using DemoDB2.Models;
+using FireSharp;
+using FireSharp.Config;
+using FireSharp.Interfaces;
+using FireSharp.Response;
+using Newtonsoft.Json.Linq;
 
 namespace DemoDB2.Controllers
 {
     public class CHITIETKHOAHOCsController : Controller
     {
         private HOCVIENVATKBEntities db = new HOCVIENVATKBEntities();
+        IFirebaseConfig config = new FirebaseConfig
+        {
+            AuthSecret = "puRabLaGEv8EPLzZVxYM1yOOLQykx4PaxFOWwewN",
+            BasePath = "https://quanlyhocvien-5fac6-default-rtdb.asia-southeast1.firebasedatabase.app/"
+        };
+        private FirebaseClient client;
 
         // GET: CHITIETKHOAHOCs
         public ActionResult Index()
@@ -52,19 +63,29 @@ namespace DemoDB2.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "ChiTietID,GiangVienID,PhongHocId,KhoaHocID,NgayBatDauKhoaHoc,NgayKetThucKhoaHoc,SoTiet,TietBatDau")] CHITIETKHOAHOC cHITIETKHOAHOC)
         {
+            client = new FireSharp.FirebaseClient(config);
             if (ModelState.IsValid)
             {
-                var check = db.CHITIETKHOAHOCs.Where(s => s.TietBatDau == cHITIETKHOAHOC.TietBatDau).FirstOrDefault();
-                if (check == null)
+                bool kt = true;
+                var listmasach = db.CHITIETKHOAHOCs.ToList();
+                foreach (var item in listmasach)
                 {
-                    var list = db.CHITIETKHOAHOCs.ToList();
-                    cHITIETKHOAHOC.ChiTietID = list.Count;
-                    db.CHITIETKHOAHOCs.Add(cHITIETKHOAHOC);
-                    db.SaveChanges();
+                    if (item.ChiTietID.Equals(cHITIETKHOAHOC.ChiTietID)) kt = false;
+                }
+                if (kt == true)
+                {
+                    FirebaseResponse res = client.Get("QuanLyHocVienVaTKB");
+                    JObject job = JObject.Parse(res.Body.ToString());
+                    JArray jsonNode = (JArray)job["ChiTietKhoaHoc"];
+                    dynamic nodes = jsonNode;
+                    int count = nodes.Count;
+                   /* cHITIETKHOAHOC.ChiTietID = count;*/
+                    SetResponse res2 = client.Set("QuanLyHocVienVaTKB/ChiTietKhoaHoc/" + count, cHITIETKHOAHOC);
+
                     return RedirectToAction("Index");
                 }
             }
-
+           
             ViewBag.GiangVienID = new SelectList(db.GIANGVIENs, "GiangVienID", "TenGiangVien", cHITIETKHOAHOC.GiangVienID);
             ViewBag.KhoaHocID = new SelectList(db.KHOAHOCs, "KhoaHocID", "TenKhoaHoc", cHITIETKHOAHOC.KhoaHocID);
             ViewBag.PhongHocId = new SelectList(db.PHONGHOCs, "PhongHocId", "TenPhongHoc", cHITIETKHOAHOC.PhongHocId);

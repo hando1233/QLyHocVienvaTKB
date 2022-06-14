@@ -15,6 +15,7 @@ namespace DemoDB2.Models
     public partial class BANGDIEM
     {
         public int BangDiemID { get; set; }
+        
         public Nullable<int> ChiTietID { get; set; }
         public Nullable<int> HocVienID { get; set; }
         public string HoTen { get; set; }
