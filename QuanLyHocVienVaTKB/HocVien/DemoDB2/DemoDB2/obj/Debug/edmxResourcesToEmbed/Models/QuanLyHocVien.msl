@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="HOCVIENVATKBModelStoreContainer" CdmEntityContainer="HOCVIENVATKBEntities">
+    <EntitySetMapping Name="ADMINs">
+      <EntityTypeMapping TypeName="HOCVIENVATKBModel.ADMIN">
+        <MappingFragment StoreEntitySet="ADMIN">
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="password" ColumnName="password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BANGDIEMs">
+      <EntityTypeMapping TypeName="HOCVIENVATKBModel.BANGDIEM">
+        <MappingFragment StoreEntitySet="BANGDIEM">
+          <ScalarProperty Name="BangDiemID" ColumnName="BangDiemID" />
+          <ScalarProperty Name="ChiTietID" ColumnName="ChiTietID" />
+          <ScalarProperty Name="HocVienID" ColumnName="HocVienID" />
+          <ScalarProperty Name="HoTen" ColumnName="HoTen" />
+          <ScalarProperty Name="Diem1" ColumnName="Diem1" />
+          <ScalarProperty Name="Diem2" ColumnName="Diem2" />
+          <ScalarProperty Name="Diem3" ColumnName="Diem3" />
+          <ScalarProperty Name="TongDiem" ColumnName="TongDiem" />
+          <ScalarProperty Name="XepLoai" ColumnName="XepLoai" />
+          <ScalarProperty Name="LanThi" ColumnName="LanThi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CHITIETKHOAHOCs">
+      <EntityTypeMapping TypeName="HOCVIENVATKBModel.CHITIETKHOAHOC">
+        <MappingFragment StoreEntitySet="CHITIETKHOAHOC">
+          <ScalarProperty Name="ChiTietID" ColumnName="ChiTietID" />
+          <ScalarProperty Name="GiangVienID" ColumnName="GiangVienID" />
+          <ScalarProperty Name="PhongHocId" ColumnName="PhongHocId" />
+          <ScalarProperty Name="KhoaHocID" ColumnName="KhoaHocID" />
+          <ScalarProperty Name="NgayBatDauKhoaHoc" ColumnName="NgayBatDauKhoaHoc" />
+          <ScalarProperty Name="NgayKetThucKhoaHoc" ColumnName="NgayKetThucKhoaHoc" />
+          <ScalarProperty Name="SoTiet" ColumnName="SoTiet" />
+          <ScalarProperty Name="TietBatDau" ColumnName="TietBatDau" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GIANGVIENs">
+      <EntityTypeMapping TypeName="HOCVIENVATKBModel.GIANGVIEN">
+        <MappingFragment StoreEntitySet="GIANGVIEN">
+          <ScalarProperty Name="GiangVienID" ColumnName="GiangVienID" />
+          <ScalarProperty Name="TenGiangVien" ColumnName="TenGiangVien" />
+          <ScalarProperty Name="SoDienThoai" ColumnName="SoDienThoai" />
+          <ScalarProperty Name="HocVi" ColumnName="HocVi" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Matkhau" ColumnName="Matkhau" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HOCVIENs">
+      <EntityTypeMapping TypeName="HOCVIENVATKBModel.HOCVIEN">
+        <MappingFragment StoreEntitySet="HOCVIEN">
+          <ScalarProperty Name="HocVienID" ColumnName="HocVienID" />
+          <ScalarProperty Name="HoTen" ColumnName="HoTen" />
+          <ScalarProperty Name="DiaChi" ColumnName="DiaChi" />
+          <ScalarProperty Name="SoDienThoai" ColumnName="SoDienThoai" />
+          <ScalarProperty Name="NgaySinh" ColumnName="NgaySinh" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="GioiTinh" ColumnName="GioiTinh" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="BangDiemID" ColumnName="BangDiemID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KHOAHOCs">
+      <EntityTypeMapping TypeName="HOCVIENVATKBModel.KHOAHOC">
+        <MappingFragment StoreEntitySet="KHOAHOC">
+          <ScalarProperty Name="KhoaHocID" ColumnName="KhoaHocID" />
+          <ScalarProperty Name="TenKhoaHoc" ColumnName="TenKhoaHoc" />
+          <ScalarProperty Name="Soluongsinhvien" ColumnName="Soluongsinhvien" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PHONGHOCs">
+      <EntityTypeMapping TypeName="HOCVIENVATKBModel.PHONGHOC">
+        <MappingFragment StoreEntitySet="PHONGHOC">
+          <ScalarProperty Name="PhongHocId" ColumnName="PhongHocId" />
+          <ScalarProperty Name="LoaiPhongHoc" ColumnName="LoaiPhongHoc" />
+          <ScalarProperty Name="Diachi" ColumnName="Diachi" />
+          <ScalarProperty Name="SucChuaPhongHoc" ColumnName="SucChuaPhongHoc" />
+          <ScalarProperty Name="TenPhongHoc" ColumnName="TenPhongHoc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="THOIKHOABIEUx">
+      <EntityTypeMapping TypeName="HOCVIENVATKBModel.THOIKHOABIEU">
+        <MappingFragment StoreEntitySet="THOIKHOABIEU">
+          <ScalarProperty Name="ThoiKhoaBieuID" ColumnName="ThoiKhoaBieuID" />
+          <ScalarProperty Name="ChiTietID" ColumnName="ChiTietID" />
+          <ScalarProperty Name="HocVienID" ColumnName="HocVienID" />
+          <ScalarProperty Name="NgayBatDau" ColumnName="NgayBatDau" />
+          <ScalarProperty Name="NgayKetThuc" ColumnName="NgayKetThuc" />
+          <ScalarProperty Name="HocKy" ColumnName="HocKy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

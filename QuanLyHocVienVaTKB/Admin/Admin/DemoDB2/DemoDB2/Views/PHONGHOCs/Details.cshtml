@@ -1,0 +1,51 @@
+﻿@model DemoDB2.Models.PHONGHOC
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>PHONGHOC</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.LoaiPhongHoc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LoaiPhongHoc)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Diachi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Diachi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SucChuaPhongHoc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SucChuaPhongHoc)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TenPhongHoc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TenPhongHoc)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.PhongHocId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

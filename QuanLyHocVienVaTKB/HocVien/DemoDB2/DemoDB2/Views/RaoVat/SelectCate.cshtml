@@ -1,0 +1,4 @@
+﻿@model DemoDB2.Models.CATEGORY
+@Html.DropDownListFor(model => model.MALOAI,
+new SelectList(Model.ListCate.OrderBy(model => model.TENLOAI), "MALOAI", "TENLOAI"), "--Chọn Danh Mục--")
+

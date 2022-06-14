@@ -1,0 +1,99 @@
+﻿@model IEnumerable<DemoDB2.Models.BANGDIEM>
+
+@{
+    ViewBag.Title = "BangDiem";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Begin Page Content -->
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    <h1 class="h3 mb-2 text-gray-800">Danh sách học viên</h1>
+    <div class="mb-4">
+        @Html.ActionLink("Nhập điểm học viên", "Create", new { @class = "btn btn-primary" })
+    </div>
+
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Danh sách kết quả học viên</h6>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Họ tên </th>
+                            <th>Tên khóa học</th>
+                            <th>Điểm 1</th>
+                            <th>Điểm 2</th>
+                            <th>Điểm 3</th>
+                            <th>Tổng điểm</th>
+                            <th>Xếp loại</th>
+                            <th>Lần thi</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.HOCVIEN.HoTen)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.CHITIETKHOAHOC.KHOAHOC.TenKhoaHoc)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Diem1)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(model => item.Diem2)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(model => item.Diem3)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(model => item.TongDiem)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(model => item.XepLoai)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(model => item.LanThi)
+                                </td>
+
+
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    </table>
+    <!-- End of Main Content -->
+    @section Scripts{
+        <!-- Bootstrap core JavaScript-->
+        <script src="~/Content/vendor/jquery/jquery.min.js"></script>
+        <script src="~/Content/vendor/bootstrap/~/Scripts/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Core plugin JavaScript-->
+        <script src="~/Content/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+        <!-- Custom scripts for all pages-->
+        <script src="~/Scripts/js/sb-admin-2.min.js"></script>
+
+        <!-- Page level plugins -->
+        <script src="~/Content/vendor/datatables/jquery.dataTables.min.js"></script>
+        <script src="~/Content/vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
+        <!-- Page level custom scripts -->
+        <script src="~/Scripts/js/demo/datatables-demo.js"></script>
+
+        <script src="~/Scripts/script.js"></script>
+    }
+
+    <div style="margin-bottom:450px"></div>

@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DBRaoVatModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="CATEGORY">
+    <Key>
+      <PropertyRef Name="MALOAI" />
+    </Key>
+    <Property Name="MALOAI" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TENLOAI" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="RAOVATs" Relationship="Self.FK_RAOVAT_CATEGORY" FromRole="CATEGORY" ToRole="RAOVAT" />
+  </EntityType>
+  <EntityType Name="HINHTHUC">
+    <Key>
+      <PropertyRef Name="MAHINHTHUC" />
+    </Key>
+    <Property Name="MAHINHTHUC" Type="Int32" Nullable="false" />
+    <Property Name="HINHTHUC1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="RAOVATs" Relationship="Self.FK_RAOVAT_HINHTHUC" FromRole="HINHTHUC" ToRole="RAOVAT" />
+  </EntityType>
+  <EntityType Name="LOAITIN">
+    <Key>
+      <PropertyRef Name="MALOAITIN" />
+    </Key>
+    <Property Name="MALOAITIN" Type="Int32" Nullable="false" />
+    <Property Name="LOAITIN1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="RAOVATs" Relationship="Self.FK_RAOVAT_LOAITIN" FromRole="LOAITIN" ToRole="RAOVAT" />
+  </EntityType>
+  <EntityType Name="RAOVAT">
+    <Key>
+      <PropertyRef Name="MATIN" />
+    </Key>
+    <Property Name="MATIN" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MATRANGTHAI" Type="Int32" Nullable="false" />
+    <Property Name="MALOAI" Type="Int32" Nullable="false" />
+    <Property Name="MATINHTRANG" Type="Int32" Nullable="false" />
+    <Property Name="MALOAITIN" Type="Int32" Nullable="false" />
+    <Property Name="MAHINHTHUC" Type="Int32" Nullable="false" />
+    <Property Name="MANGUOIDUNG" Type="Int32" Nullable="false" />
+    <Property Name="TIEUDE" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="HINHANH1" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="NOIDUNG" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="NGAYGIODANG" Type="DateTime" Precision="3" />
+    <Property Name="GIA" Type="Int32" />
+    <Property Name="DIACHI" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="NGAYHETHAN" Type="DateTime" Precision="3" />
+    <Property Name="MATHANHPHO" Type="Int32" />
+    <NavigationProperty Name="CATEGORY" Relationship="Self.FK_RAOVAT_CATEGORY" FromRole="RAOVAT" ToRole="CATEGORY" />
+    <NavigationProperty Name="HINHTHUC" Relationship="Self.FK_RAOVAT_HINHTHUC" FromRole="RAOVAT" ToRole="HINHTHUC" />
+    <NavigationProperty Name="LOAITIN" Relationship="Self.FK_RAOVAT_LOAITIN" FromRole="RAOVAT" ToRole="LOAITIN" />
+    <NavigationProperty Name="TINHTHANHPHO" Relationship="Self.FK_RAOVAT_TINHTHANHPHO" FromRole="RAOVAT" ToRole="TINHTHANHPHO" />
+    <NavigationProperty Name="TINHTRANG" Relationship="Self.FK_RAOVAT_TINHTRANG" FromRole="RAOVAT" ToRole="TINHTRANG" />
+    <NavigationProperty Name="TRANGTHAI" Relationship="Self.FK_RAOVAT_TRANGTHAI" FromRole="RAOVAT" ToRole="TRANGTHAI" />
+    <NavigationProperty Name="USER" Relationship="Self.FK_RAOVAT_USER" FromRole="RAOVAT" ToRole="USER" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="TINHTHANHPHO">
+    <Key>
+      <PropertyRef Name="MATHANHPHO" />
+    </Key>
+    <Property Name="MATHANHPHO" Type="Int32" Nullable="false" />
+    <Property Name="TENTHANHPHO" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="LOAITHANHPHO" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="SLUG" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="RAOVATs" Relationship="Self.FK_RAOVAT_TINHTHANHPHO" FromRole="TINHTHANHPHO" ToRole="RAOVAT" />
+  </EntityType>
+  <EntityType Name="TINHTRANG">
+    <Key>
+      <PropertyRef Name="MATINHTRANG" />
+    </Key>
+    <Property Name="MATINHTRANG" Type="Int32" Nullable="false" />
+    <Property Name="TINHTRANG1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="RAOVATs" Relationship="Self.FK_RAOVAT_TINHTRANG" FromRole="TINHTRANG" ToRole="RAOVAT" />
+  </EntityType>
+  <EntityType Name="TRANGTHAI">
+    <Key>
+      <PropertyRef Name="MATRANGTHAI" />
+    </Key>
+    <Property Name="MATRANGTHAI" Type="Int32" Nullable="false" />
+    <Property Name="TRANGTHAI1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="RAOVATs" Relationship="Self.FK_RAOVAT_TRANGTHAI" FromRole="TRANGTHAI" ToRole="RAOVAT" />
+  </EntityType>
+  <EntityType Name="USER">
+    <Key>
+      <PropertyRef Name="MANGUOIDUNG" />
+    </Key>
+    <Property Name="MANGUOIDUNG" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TENDANGNHAP" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MATKHAU" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SODIENTHOAI" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="EMAIL" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="DIACHI" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="GIOITINH" Type="Boolean" />
+    <Property Name="NGAYSINH" Type="DateTime" Precision="0" />
+    <Property Name="HOTEN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="RAOVATs" Relationship="Self.FK_RAOVAT_USER" FromRole="USER" ToRole="RAOVAT" />
+  </EntityType>
+  <EntityType Name="ADMIN">
+    <Key>
+      <PropertyRef Name="MAQUANTRI" />
+    </Key>
+    <Property Name="MAQUANTRI" Type="Int32" Nullable="false" />
+    <Property Name="TENDANGNHAP" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MATKHAU" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <Association Name="FK_RAOVAT_CATEGORY">
+    <End Role="CATEGORY" Type="Self.CATEGORY" Multiplicity="1" />
+    <End Role="RAOVAT" Type="Self.RAOVAT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CATEGORY">
+        <PropertyRef Name="MALOAI" />
+      </Principal>
+      <Dependent Role="RAOVAT">
+        <PropertyRef Name="MALOAI" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RAOVAT_HINHTHUC">
+    <End Role="HINHTHUC" Type="Self.HINHTHUC" Multiplicity="1" />
+    <End Role="RAOVAT" Type="Self.RAOVAT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HINHTHUC">
+        <PropertyRef Name="MAHINHTHUC" />
+      </Principal>
+      <Dependent Role="RAOVAT">
+        <PropertyRef Name="MAHINHTHUC" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RAOVAT_LOAITIN">
+    <End Role="LOAITIN" Type="Self.LOAITIN" Multiplicity="1" />
+    <End Role="RAOVAT" Type="Self.RAOVAT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LOAITIN">
+        <PropertyRef Name="MALOAITIN" />
+      </Principal>
+      <Dependent Role="RAOVAT">
+        <PropertyRef Name="MALOAITIN" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RAOVAT_TINHTHANHPHO">
+    <End Role="TINHTHANHPHO" Type="Self.TINHTHANHPHO" Multiplicity="0..1" />
+    <End Role="RAOVAT" Type="Self.RAOVAT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TINHTHANHPHO">
+        <PropertyRef Name="MATHANHPHO" />
+      </Principal>
+      <Dependent Role="RAOVAT">
+        <PropertyRef Name="MATHANHPHO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RAOVAT_TINHTRANG">
+    <End Role="TINHTRANG" Type="Self.TINHTRANG" Multiplicity="1" />
+    <End Role="RAOVAT" Type="Self.RAOVAT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TINHTRANG">
+        <PropertyRef Name="MATINHTRANG" />
+      </Principal>
+      <Dependent Role="RAOVAT">
+        <PropertyRef Name="MATINHTRANG" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RAOVAT_TRANGTHAI">
+    <End Role="TRANGTHAI" Type="Self.TRANGTHAI" Multiplicity="1" />
+    <End Role="RAOVAT" Type="Self.RAOVAT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TRANGTHAI">
+        <PropertyRef Name="MATRANGTHAI" />
+      </Principal>
+      <Dependent Role="RAOVAT">
+        <PropertyRef Name="MATRANGTHAI" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RAOVAT_USER">
+    <End Role="USER" Type="Self.USER" Multiplicity="1" />
+    <End Role="RAOVAT" Type="Self.RAOVAT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USER">
+        <PropertyRef Name="MANGUOIDUNG" />
+      </Principal>
+      <Dependent Role="RAOVAT">
+        <PropertyRef Name="MANGUOIDUNG" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DBRaoVatEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CATEGORies" EntityType="Self.CATEGORY" />
+    <EntitySet Name="HINHTHUCs" EntityType="Self.HINHTHUC" />
+    <EntitySet Name="LOAITINs" EntityType="Self.LOAITIN" />
+    <EntitySet Name="RAOVATs" EntityType="Self.RAOVAT" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="TINHTHANHPHOes" EntityType="Self.TINHTHANHPHO" />
+    <EntitySet Name="TINHTRANGs" EntityType="Self.TINHTRANG" />
+    <EntitySet Name="TRANGTHAIs" EntityType="Self.TRANGTHAI" />
+    <EntitySet Name="USERs" EntityType="Self.USER" />
+    <EntitySet Name="ADMINs" EntityType="Self.ADMIN" />
+    <AssociationSet Name="FK_RAOVAT_CATEGORY" Association="Self.FK_RAOVAT_CATEGORY">
+      <End Role="CATEGORY" EntitySet="CATEGORies" />
+      <End Role="RAOVAT" EntitySet="RAOVATs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RAOVAT_HINHTHUC" Association="Self.FK_RAOVAT_HINHTHUC">
+      <End Role="HINHTHUC" EntitySet="HINHTHUCs" />
+      <End Role="RAOVAT" EntitySet="RAOVATs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RAOVAT_LOAITIN" Association="Self.FK_RAOVAT_LOAITIN">
+      <End Role="LOAITIN" EntitySet="LOAITINs" />
+      <End Role="RAOVAT" EntitySet="RAOVATs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RAOVAT_TINHTHANHPHO" Association="Self.FK_RAOVAT_TINHTHANHPHO">
+      <End Role="TINHTHANHPHO" EntitySet="TINHTHANHPHOes" />
+      <End Role="RAOVAT" EntitySet="RAOVATs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RAOVAT_TINHTRANG" Association="Self.FK_RAOVAT_TINHTRANG">
+      <End Role="TINHTRANG" EntitySet="TINHTRANGs" />
+      <End Role="RAOVAT" EntitySet="RAOVATs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RAOVAT_TRANGTHAI" Association="Self.FK_RAOVAT_TRANGTHAI">
+      <End Role="TRANGTHAI" EntitySet="TRANGTHAIs" />
+      <End Role="RAOVAT" EntitySet="RAOVATs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RAOVAT_USER" Association="Self.FK_RAOVAT_USER">
+      <End Role="USER" EntitySet="USERs" />
+      <End Role="RAOVAT" EntitySet="RAOVATs" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

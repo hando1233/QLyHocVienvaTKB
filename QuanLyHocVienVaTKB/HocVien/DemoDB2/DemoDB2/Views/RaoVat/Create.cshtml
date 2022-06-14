@@ -1,0 +1,173 @@
+﻿@model DemoDB2.Models.RAOVAT
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Begin Page Content -->
+<div class="container-fluid">
+    <!-- Begin Page Content -->
+    <div class="container-fluid">
+        <!-- DataTales Example -->
+        <div class="card shadow mb-4">
+            <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary">Thêm mới tin rao</h6>
+            </div>
+            <div class="card-body">
+
+
+                @using (Html.BeginForm("Create", "RaoVat", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                {
+            @Html.AntiForgeryToken()
+
+                            <div class="form-horizontal">
+                                <h4>Thông tin tin rao</h4>
+                                <hr />
+                                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                                @Html.HiddenFor(model => model.MATIN)
+
+
+                                <div class="form-group">
+                                    <div class="col-md-2">
+                                        Chọn danh mục
+                                    </div>
+
+                                    <div class="col-md-10">
+                                        @{ Html.RenderAction("SelectCate", "RaoVat");}
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-md-2">
+                                        Chọn tình trạng
+                                    </div>
+                                    <div class="col-md-10">
+                                        @{ Html.RenderAction("SelectTinhTrang", "RaoVat");}
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-md-2">
+                                        Chọn loại tin
+                                    </div>
+                                    <div class="col-md-10">
+                                        @{ Html.RenderAction("SelectLoaiTin", "RaoVat");}
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-md-2">
+                                        Chọn hình thức
+                                    </div>
+                                    <div class="col-md-10">
+                                        @{ Html.RenderAction("SelectHinhThuc", "RaoVat");}
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.MANGUOIDUNG, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.MANGUOIDUNG, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.MANGUOIDUNG, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.TIEUDE, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.TIEUDE, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.TIEUDE, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.HINHANH1, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        <img src="@Url.Content(Model.HINHANH1)" width="150" height="150" id="previewImg" />
+                                        <input type="file" name="UploadImage" onchange="ChangeImage(this, document.getElementById('previewImg'))" />
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.NOIDUNG, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.NOIDUNG, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.NOIDUNG, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.GIA, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.GIA, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.GIA, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.DIACHI, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.DIACHI, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.DIACHI, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-md-offset-2 col-md-10">
+                                        <input type="submit" value="Tạo" class="btn btn-primary" />
+                                    </div>
+                                </div>
+                            </div>}
+
+                <div>
+                    @Html.ActionLink("Về Danh sách", "Index")
+                </div>
+
+                @section Scripts {
+                    @Scripts.Render("~/bundles/jqueryval")
+                    <!-- Bootstrap core JavaScript-->
+                    <script src="~/Content/vendor/jquery/jquery.min.js"></script>
+                    <script src="~/Content/vendor/bootstrap/~/Scripts/js/bootstrap.bundle.min.js"></script>
+
+                    <!-- Core plugin JavaScript-->
+                    <script src="~/Content/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+                    <!-- Custom scripts for all pages-->
+                    <script src="~/Scripts/js/sb-admin-2.min.js"></script>
+
+                    <!-- Page level plugins -->
+                    <script src="~/Content/vendor/datatables/jquery.dataTables.min.js"></script>
+                    <script src="~/Content/vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
+                    <!-- Page level custom scripts -->
+                    <script src="~/Scripts/js/demo/datatables-demo.js"></script>
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+                    <script>
+                        $(function () {
+                            var dtToday = new Date();
+
+                            var month = dtToday.getMonth() + 1;
+                            var day = dtToday.getDate();
+                            var year = dtToday.getFullYear();
+                            if (month < 10)
+                                month = '0' + month.toString();
+                            if (day < 10)
+                                day = '0' + day.toString();
+
+                            var maxDate = year + '-' + month + '-' + day;
+
+                            // or instead:
+                            // var maxDate = dtToday.toISOString().substr(0, 10);
+
+                            $('#txtDate').attr('min', maxDate);
+                        });
+                    </script>
+                }
+            </div>
+        </div>
+    </div>
+    <!-- /.container-fluid -->
+</div>
+<!-- End of Main Content -->

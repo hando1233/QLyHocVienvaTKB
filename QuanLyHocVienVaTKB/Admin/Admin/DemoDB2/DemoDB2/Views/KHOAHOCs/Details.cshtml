@@ -1,0 +1,35 @@
+﻿@model DemoDB2.Models.KHOAHOC
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>KHOAHOC</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TenKhoaHoc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TenKhoaHoc)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Soluongsinhvien)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Soluongsinhvien)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.KhoaHocID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

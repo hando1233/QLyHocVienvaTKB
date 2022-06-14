@@ -1,0 +1,47 @@
+﻿.mg-t-cate{
+    margin-top:100px;
+    margin-left:120px;
+}
+.mg-t-search {
+    margin-top: 0px;
+}
+.mg-l-row {
+    margin-left: 250px;
+}
+.mg-t-row {
+    margin-top: 10px
+}
+.btn-xct{
+    margin-top: 5px;
+}
+.h-color-price{
+    color:red
+}
+.img-mg{
+    margin:5px;
+}
+.hr-vertical {
+    border: none;
+    border-left: 1px solid hsla(200, 10%, 50%,100);
+    height: 100vh;
+    width: 1px;
+}
+.vl {
+    border-left: 2px solid black;
+    height: 100px;
+}
+.mg-p-t{
+    margin-top:10px;
+}
+.mg-s-t{
+    margin-top:20px;
+}
+.pad-r {
+    padding-right: 50px;
+}
+.pad-l {
+    padding-left: 80px;
+}
+.mg-all{
+    margin:20px;
+}

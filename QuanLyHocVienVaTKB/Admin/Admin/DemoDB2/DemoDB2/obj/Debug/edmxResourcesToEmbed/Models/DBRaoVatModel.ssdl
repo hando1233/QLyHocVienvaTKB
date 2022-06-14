@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DBRaoVatModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'DBRaoVat.dbo.ADMIN' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="ADMIN">
+    <Key>
+      <PropertyRef Name="MAQUANTRI" />
+    </Key>
+    <Property Name="MAQUANTRI" Type="int" Nullable="false" />
+    <Property Name="TENDANGNHAP" Type="nvarchar" MaxLength="50" />
+    <Property Name="MATKHAU" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="CATEGORY">
+    <Key>
+      <PropertyRef Name="MALOAI" />
+    </Key>
+    <Property Name="MALOAI" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TENLOAI" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="HINHTHUC">
+    <Key>
+      <PropertyRef Name="MAHINHTHUC" />
+    </Key>
+    <Property Name="MAHINHTHUC" Type="int" Nullable="false" />
+    <Property Name="HINHTHUC" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="LOAITIN">
+    <Key>
+      <PropertyRef Name="MALOAITIN" />
+    </Key>
+    <Property Name="MALOAITIN" Type="int" Nullable="false" />
+    <Property Name="LOAITIN" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="RAOVAT">
+    <Key>
+      <PropertyRef Name="MATIN" />
+    </Key>
+    <Property Name="MATIN" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MATRANGTHAI" Type="int" Nullable="false" />
+    <Property Name="MALOAI" Type="int" Nullable="false" />
+    <Property Name="MATINHTRANG" Type="int" Nullable="false" />
+    <Property Name="MALOAITIN" Type="int" Nullable="false" />
+    <Property Name="MAHINHTHUC" Type="int" Nullable="false" />
+    <Property Name="MANGUOIDUNG" Type="int" Nullable="false" />
+    <Property Name="TIEUDE" Type="nvarchar(max)" />
+    <Property Name="HINHANH1" Type="nvarchar" MaxLength="100" />
+    <Property Name="NOIDUNG" Type="nvarchar(max)" />
+    <Property Name="NGAYGIODANG" Type="datetime" />
+    <Property Name="GIA" Type="int" />
+    <Property Name="DIACHI" Type="nvarchar(max)" />
+    <Property Name="NGAYHETHAN" Type="datetime" />
+    <Property Name="MATHANHPHO" Type="int" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="TINHTHANHPHO">
+    <Key>
+      <PropertyRef Name="MATHANHPHO" />
+    </Key>
+    <Property Name="MATHANHPHO" Type="int" Nullable="false" />
+    <Property Name="TENTHANHPHO" Type="nvarchar" MaxLength="100" />
+    <Property Name="LOAITHANHPHO" Type="nvarchar" MaxLength="30" />
+    <Property Name="SLUG" Type="nvarchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="TINHTRANG">
+    <Key>
+      <PropertyRef Name="MATINHTRANG" />
+    </Key>
+    <Property Name="MATINHTRANG" Type="int" Nullable="false" />
+    <Property Name="TINHTRANG" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="TRANGTHAI">
+    <Key>
+      <PropertyRef Name="MATRANGTHAI" />
+    </Key>
+    <Property Name="MATRANGTHAI" Type="int" Nullable="false" />
+    <Property Name="TRANGTHAI" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="USER">
+    <Key>
+      <PropertyRef Name="MANGUOIDUNG" />
+    </Key>
+    <Property Name="MANGUOIDUNG" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TENDANGNHAP" Type="nvarchar" MaxLength="50" />
+    <Property Name="MATKHAU" Type="nvarchar" MaxLength="50" />
+    <Property Name="SODIENTHOAI" Type="nvarchar" MaxLength="20" />
+    <Property Name="EMAIL" Type="nchar" MaxLength="50" />
+    <Property Name="DIACHI" Type="nchar" MaxLength="50" />
+    <Property Name="GIOITINH" Type="bit" />
+    <Property Name="NGAYSINH" Type="date" />
+    <Property Name="HOTEN" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_RAOVAT_CATEGORY">
+    <End Role="CATEGORY" Type="Self.CATEGORY" Multiplicity="1" />
+    <End Role="RAOVAT" Type="Self.RAOVAT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CATEGORY">
+        <PropertyRef Name="MALOAI" />
+      </Principal>
+      <Dependent Role="RAOVAT">
+        <PropertyRef Name="MALOAI" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RAOVAT_HINHTHUC">
+    <End Role="HINHTHUC" Type="Self.HINHTHUC" Multiplicity="1" />
+    <End Role="RAOVAT" Type="Self.RAOVAT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HINHTHUC">
+        <PropertyRef Name="MAHINHTHUC" />
+      </Principal>
+      <Dependent Role="RAOVAT">
+        <PropertyRef Name="MAHINHTHUC" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RAOVAT_LOAITIN">
+    <End Role="LOAITIN" Type="Self.LOAITIN" Multiplicity="1" />
+    <End Role="RAOVAT" Type="Self.RAOVAT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LOAITIN">
+        <PropertyRef Name="MALOAITIN" />
+      </Principal>
+      <Dependent Role="RAOVAT">
+        <PropertyRef Name="MALOAITIN" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RAOVAT_TINHTHANHPHO">
+    <End Role="TINHTHANHPHO" Type="Self.TINHTHANHPHO" Multiplicity="0..1" />
+    <End Role="RAOVAT" Type="Self.RAOVAT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TINHTHANHPHO">
+        <PropertyRef Name="MATHANHPHO" />
+      </Principal>
+      <Dependent Role="RAOVAT">
+        <PropertyRef Name="MATHANHPHO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RAOVAT_TINHTRANG">
+    <End Role="TINHTRANG" Type="Self.TINHTRANG" Multiplicity="1" />
+    <End Role="RAOVAT" Type="Self.RAOVAT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TINHTRANG">
+        <PropertyRef Name="MATINHTRANG" />
+      </Principal>
+      <Dependent Role="RAOVAT">
+        <PropertyRef Name="MATINHTRANG" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RAOVAT_TRANGTHAI">
+    <End Role="TRANGTHAI" Type="Self.TRANGTHAI" Multiplicity="1" />
+    <End Role="RAOVAT" Type="Self.RAOVAT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TRANGTHAI">
+        <PropertyRef Name="MATRANGTHAI" />
+      </Principal>
+      <Dependent Role="RAOVAT">
+        <PropertyRef Name="MATRANGTHAI" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RAOVAT_USER">
+    <End Role="USER" Type="Self.USER" Multiplicity="1" />
+    <End Role="RAOVAT" Type="Self.RAOVAT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USER">
+        <PropertyRef Name="MANGUOIDUNG" />
+      </Principal>
+      <Dependent Role="RAOVAT">
+        <PropertyRef Name="MANGUOIDUNG" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DBRaoVatModelStoreContainer">
+    <EntitySet Name="CATEGORY" EntityType="Self.CATEGORY" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="HINHTHUC" EntityType="Self.HINHTHUC" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LOAITIN" EntityType="Self.LOAITIN" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RAOVAT" EntityType="Self.RAOVAT" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TINHTHANHPHO" EntityType="Self.TINHTHANHPHO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TINHTRANG" EntityType="Self.TINHTRANG" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TRANGTHAI" EntityType="Self.TRANGTHAI" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="USER" EntityType="Self.USER" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ADMIN" EntityType="Self.ADMIN" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [ADMIN].[MAQUANTRI] AS [MAQUANTRI], 
+    [ADMIN].[TENDANGNHAP] AS [TENDANGNHAP], 
+    [ADMIN].[MATKHAU] AS [MATKHAU]
+    FROM [dbo].[ADMIN] AS [ADMIN]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_RAOVAT_CATEGORY" Association="Self.FK_RAOVAT_CATEGORY">
+      <End Role="CATEGORY" EntitySet="CATEGORY" />
+      <End Role="RAOVAT" EntitySet="RAOVAT" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RAOVAT_HINHTHUC" Association="Self.FK_RAOVAT_HINHTHUC">
+      <End Role="HINHTHUC" EntitySet="HINHTHUC" />
+      <End Role="RAOVAT" EntitySet="RAOVAT" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RAOVAT_LOAITIN" Association="Self.FK_RAOVAT_LOAITIN">
+      <End Role="LOAITIN" EntitySet="LOAITIN" />
+      <End Role="RAOVAT" EntitySet="RAOVAT" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RAOVAT_TINHTHANHPHO" Association="Self.FK_RAOVAT_TINHTHANHPHO">
+      <End Role="TINHTHANHPHO" EntitySet="TINHTHANHPHO" />
+      <End Role="RAOVAT" EntitySet="RAOVAT" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RAOVAT_TINHTRANG" Association="Self.FK_RAOVAT_TINHTRANG">
+      <End Role="TINHTRANG" EntitySet="TINHTRANG" />
+      <End Role="RAOVAT" EntitySet="RAOVAT" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RAOVAT_TRANGTHAI" Association="Self.FK_RAOVAT_TRANGTHAI">
+      <End Role="TRANGTHAI" EntitySet="TRANGTHAI" />
+      <End Role="RAOVAT" EntitySet="RAOVAT" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RAOVAT_USER" Association="Self.FK_RAOVAT_USER">
+      <End Role="USER" EntitySet="USER" />
+      <End Role="RAOVAT" EntitySet="RAOVAT" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

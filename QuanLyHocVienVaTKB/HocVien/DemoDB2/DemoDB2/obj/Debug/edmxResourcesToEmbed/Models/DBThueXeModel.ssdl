@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DBThueXeModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="CHITIETDONDAT">
+    <Key>
+      <PropertyRef Name="MACTDONDAT" />
+    </Key>
+    <Property Name="MACTDONDAT" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MADATXE" Type="int" Nullable="false" />
+    <Property Name="MAXE" Type="int" Nullable="false" />
+    <Property Name="MOTACT" Type="nvarchar(max)" />
+    <Property Name="GIA" Type="int" />
+    <Property Name="SOLUONG" Type="int" />
+  </EntityType>
+  <EntityType Name="CHITIETHOPDONG">
+    <Key>
+      <PropertyRef Name="MACTHOPDONG" />
+    </Key>
+    <Property Name="MACTHOPDONG" Type="int" Nullable="false" />
+    <Property Name="MAHOPDONG" Type="int" Nullable="false" />
+    <Property Name="MALOAIXE" Type="int" />
+    <Property Name="SOLUONG" Type="int" />
+    <Property Name="GIA" Type="float" />
+    <Property Name="NGAYNHAN" Type="date" />
+    <Property Name="NGAYTRA" Type="date" />
+    <Property Name="GHICHU" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="CHITIETTHANHLYHOPDONG">
+    <Key>
+      <PropertyRef Name="MACTTLHOPDONG" />
+    </Key>
+    <Property Name="MACTTLHOPDONG" Type="int" Nullable="false" />
+    <Property Name="MATLHOPDONG" Type="int" Nullable="false" />
+    <Property Name="MAXE" Type="int" Nullable="false" />
+    <Property Name="NGAYNHANXE" Type="date" />
+    <Property Name="NGAYTRAXE" Type="date" />
+    <Property Name="GIA" Type="float" />
+    <Property Name="THANHTIEN" Type="int" />
+  </EntityType>
+  <EntityType Name="DONDATXE">
+    <Key>
+      <PropertyRef Name="MADATXE" />
+    </Key>
+    <Property Name="MADATXE" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MAKHACH" Type="int" Nullable="false" />
+    <Property Name="NGAYDAT" Type="date" />
+    <Property Name="TIENCOC" Type="int" />
+    <Property Name="TIENTRA" Type="int" />
+  </EntityType>
+  <EntityType Name="HOPDONG">
+    <Key>
+      <PropertyRef Name="MAHOPDONG" />
+    </Key>
+    <Property Name="MAHOPDONG" Type="int" Nullable="false" />
+    <Property Name="MAKHACHHANG" Type="int" Nullable="false" />
+    <Property Name="NGAY" Type="date" />
+    <Property Name="NOIDUNG" Type="nvarchar(max)" />
+    <Property Name="DK_CHUNG" Type="nchar" MaxLength="50" />
+    <Property Name="DK_CUTHE" Type="nchar" MaxLength="50" />
+    <Property Name="TIENTAMUNG" Type="int" />
+  </EntityType>
+  <EntityType Name="KHACHHANG">
+    <Key>
+      <PropertyRef Name="MAKHACHHANG" />
+    </Key>
+    <Property Name="MAKHACHHANG" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TENKHACH" Type="nvarchar" MaxLength="50" />
+    <Property Name="DIACHI" Type="nvarchar(max)" />
+    <Property Name="CMND" Type="nvarchar" MaxLength="50" />
+    <Property Name="SODIENTHOAI" Type="nvarchar" MaxLength="50" />
+    <Property Name="SOTAIKHOAN" Type="nvarchar" MaxLength="50" />
+    <Property Name="NGANHANG" Type="nvarchar" MaxLength="50" />
+    <Property Name="TENCOQUAN" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="LOAIXE">
+    <Key>
+      <PropertyRef Name="MALOAIXE" />
+    </Key>
+    <Property Name="MALOAIXE" Type="int" Nullable="false" />
+    <Property Name="TENLOAIXE" Type="nchar" MaxLength="20" />
+    <Property Name="SOCHO" Type="int" />
+    <Property Name="SOLUONGXE" Type="int" />
+    <Property Name="HANGSANXUAT" Type="nchar" MaxLength="10" />
+    <Property Name="HINHANH" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="THANHLYHOPDONG">
+    <Key>
+      <PropertyRef Name="MATLHOPDONG" />
+    </Key>
+    <Property Name="MATLHOPDONG" Type="int" Nullable="false" />
+    <Property Name="MAHOPDONG" Type="int" Nullable="false" />
+    <Property Name="NGAY" Type="date" />
+    <Property Name="HTTT" Type="nchar" MaxLength="20" />
+    <Property Name="TONGSOXETHUE" Type="int" />
+    <Property Name="TRATRUOC" Type="int" />
+    <Property Name="TONGTHANHTOAN" Type="int" />
+    <Property Name="SOTIENDANOP" Type="int" />
+    <Property Name="GHICHU" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="XE">
+    <Key>
+      <PropertyRef Name="MAXE" />
+    </Key>
+    <Property Name="MAXE" Type="int" Nullable="false" />
+    <Property Name="MALOAIXE" Type="int" Nullable="false" />
+    <Property Name="TENXE" Type="nchar" MaxLength="10" />
+    <Property Name="BIENSO" Type="nchar" MaxLength="10" />
+    <Property Name="DONGIA" Type="int" />
+    <Property Name="SONGAYDAT" Type="int" />
+    <Property Name="TIENCOC" Type="int" />
+    <Property Name="TINHTRANG" Type="nchar" MaxLength="10" />
+    <Property Name="MOTA" Type="nchar" MaxLength="100" />
+  </EntityType>
+  <Association Name="FK_CHITIETDONDAT_DONDATXE">
+    <End Role="DONDATXE" Type="Self.DONDATXE" Multiplicity="1" />
+    <End Role="CHITIETDONDAT" Type="Self.CHITIETDONDAT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DONDATXE">
+        <PropertyRef Name="MADATXE" />
+      </Principal>
+      <Dependent Role="CHITIETDONDAT">
+        <PropertyRef Name="MADATXE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CHITIETDONDAT_XE">
+    <End Role="XE" Type="Self.XE" Multiplicity="1" />
+    <End Role="CHITIETDONDAT" Type="Self.CHITIETDONDAT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="XE">
+        <PropertyRef Name="MAXE" />
+      </Principal>
+      <Dependent Role="CHITIETDONDAT">
+        <PropertyRef Name="MAXE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CHITIETHOPDONG_HOPDONG">
+    <End Role="HOPDONG" Type="Self.HOPDONG" Multiplicity="1" />
+    <End Role="CHITIETHOPDONG" Type="Self.CHITIETHOPDONG" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HOPDONG">
+        <PropertyRef Name="MAHOPDONG" />
+      </Principal>
+      <Dependent Role="CHITIETHOPDONG">
+        <PropertyRef Name="MAHOPDONG" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CHITIETHOPDONG_LOAIXE">
+    <End Role="LOAIXE" Type="Self.LOAIXE" Multiplicity="0..1" />
+    <End Role="CHITIETHOPDONG" Type="Self.CHITIETHOPDONG" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LOAIXE">
+        <PropertyRef Name="MALOAIXE" />
+      </Principal>
+      <Dependent Role="CHITIETHOPDONG">
+        <PropertyRef Name="MALOAIXE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CHITIETTHANHLYHOPDONG_THANHLYHOPDONG">
+    <End Role="THANHLYHOPDONG" Type="Self.THANHLYHOPDONG" Multiplicity="1" />
+    <End Role="CHITIETTHANHLYHOPDONG" Type="Self.CHITIETTHANHLYHOPDONG" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="THANHLYHOPDONG">
+        <PropertyRef Name="MATLHOPDONG" />
+      </Principal>
+      <Dependent Role="CHITIETTHANHLYHOPDONG">
+        <PropertyRef Name="MATLHOPDONG" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CHITIETTHANHLYHOPDONG_XE">
+    <End Role="XE" Type="Self.XE" Multiplicity="1" />
+    <End Role="CHITIETTHANHLYHOPDONG" Type="Self.CHITIETTHANHLYHOPDONG" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="XE">
+        <PropertyRef Name="MAXE" />
+      </Principal>
+      <Dependent Role="CHITIETTHANHLYHOPDONG">
+        <PropertyRef Name="MAXE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DONDATXE_KHACHHANG">
+    <End Role="KHACHHANG" Type="Self.KHACHHANG" Multiplicity="1" />
+    <End Role="DONDATXE" Type="Self.DONDATXE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KHACHHANG">
+        <PropertyRef Name="MAKHACHHANG" />
+      </Principal>
+      <Dependent Role="DONDATXE">
+        <PropertyRef Name="MAKHACH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_HOPDONG_KHACHHANG">
+    <End Role="KHACHHANG" Type="Self.KHACHHANG" Multiplicity="1" />
+    <End Role="HOPDONG" Type="Self.HOPDONG" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KHACHHANG">
+        <PropertyRef Name="MAKHACHHANG" />
+      </Principal>
+      <Dependent Role="HOPDONG">
+        <PropertyRef Name="MAKHACHHANG" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_THANHLYHOPDONG_HOPDONG">
+    <End Role="HOPDONG" Type="Self.HOPDONG" Multiplicity="1" />
+    <End Role="THANHLYHOPDONG" Type="Self.THANHLYHOPDONG" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HOPDONG">
+        <PropertyRef Name="MAHOPDONG" />
+      </Principal>
+      <Dependent Role="THANHLYHOPDONG">
+        <PropertyRef Name="MAHOPDONG" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_XE_LOAIXE">
+    <End Role="LOAIXE" Type="Self.LOAIXE" Multiplicity="1" />
+    <End Role="XE" Type="Self.XE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LOAIXE">
+        <PropertyRef Name="MALOAIXE" />
+      </Principal>
+      <Dependent Role="XE">
+        <PropertyRef Name="MALOAIXE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DBThueXeModelStoreContainer">
+    <EntitySet Name="CHITIETDONDAT" EntityType="Self.CHITIETDONDAT" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CHITIETHOPDONG" EntityType="Self.CHITIETHOPDONG" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CHITIETTHANHLYHOPDONG" EntityType="Self.CHITIETTHANHLYHOPDONG" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DONDATXE" EntityType="Self.DONDATXE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="HOPDONG" EntityType="Self.HOPDONG" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="KHACHHANG" EntityType="Self.KHACHHANG" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LOAIXE" EntityType="Self.LOAIXE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="THANHLYHOPDONG" EntityType="Self.THANHLYHOPDONG" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="XE" EntityType="Self.XE" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_CHITIETDONDAT_DONDATXE" Association="Self.FK_CHITIETDONDAT_DONDATXE">
+      <End Role="DONDATXE" EntitySet="DONDATXE" />
+      <End Role="CHITIETDONDAT" EntitySet="CHITIETDONDAT" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CHITIETDONDAT_XE" Association="Self.FK_CHITIETDONDAT_XE">
+      <End Role="XE" EntitySet="XE" />
+      <End Role="CHITIETDONDAT" EntitySet="CHITIETDONDAT" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CHITIETHOPDONG_HOPDONG" Association="Self.FK_CHITIETHOPDONG_HOPDONG">
+      <End Role="HOPDONG" EntitySet="HOPDONG" />
+      <End Role="CHITIETHOPDONG" EntitySet="CHITIETHOPDONG" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CHITIETHOPDONG_LOAIXE" Association="Self.FK_CHITIETHOPDONG_LOAIXE">
+      <End Role="LOAIXE" EntitySet="LOAIXE" />
+      <End Role="CHITIETHOPDONG" EntitySet="CHITIETHOPDONG" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CHITIETTHANHLYHOPDONG_THANHLYHOPDONG" Association="Self.FK_CHITIETTHANHLYHOPDONG_THANHLYHOPDONG">
+      <End Role="THANHLYHOPDONG" EntitySet="THANHLYHOPDONG" />
+      <End Role="CHITIETTHANHLYHOPDONG" EntitySet="CHITIETTHANHLYHOPDONG" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CHITIETTHANHLYHOPDONG_XE" Association="Self.FK_CHITIETTHANHLYHOPDONG_XE">
+      <End Role="XE" EntitySet="XE" />
+      <End Role="CHITIETTHANHLYHOPDONG" EntitySet="CHITIETTHANHLYHOPDONG" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DONDATXE_KHACHHANG" Association="Self.FK_DONDATXE_KHACHHANG">
+      <End Role="KHACHHANG" EntitySet="KHACHHANG" />
+      <End Role="DONDATXE" EntitySet="DONDATXE" />
+    </AssociationSet>
+    <AssociationSet Name="FK_HOPDONG_KHACHHANG" Association="Self.FK_HOPDONG_KHACHHANG">
+      <End Role="KHACHHANG" EntitySet="KHACHHANG" />
+      <End Role="HOPDONG" EntitySet="HOPDONG" />
+    </AssociationSet>
+    <AssociationSet Name="FK_THANHLYHOPDONG_HOPDONG" Association="Self.FK_THANHLYHOPDONG_HOPDONG">
+      <End Role="HOPDONG" EntitySet="HOPDONG" />
+      <End Role="THANHLYHOPDONG" EntitySet="THANHLYHOPDONG" />
+    </AssociationSet>
+    <AssociationSet Name="FK_XE_LOAIXE" Association="Self.FK_XE_LOAIXE">
+      <End Role="LOAIXE" EntitySet="LOAIXE" />
+      <End Role="XE" EntitySet="XE" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

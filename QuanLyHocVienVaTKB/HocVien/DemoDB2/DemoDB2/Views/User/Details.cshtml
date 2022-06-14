@@ -1,0 +1,105 @@
+﻿@model DemoDB2.Models.USER
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Begin Page Content -->
+<div class="container-fluid">
+    <!-- Begin Page Content -->
+    <div class="container-fluid">
+        <!-- DataTales Example -->
+        <div class="card shadow mb-4">
+            <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary">Chi tiết người dùng</h6>
+            </div>
+            <div class="card-body">
+                <h4>Thông tin người dùng</h4>
+                <hr />
+                <dl class="dl-horizontal">
+                    <dt>
+                        @Html.DisplayNameFor(model => model.HOTEN)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.HOTEN)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.GIOITINH)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.GIOITINH)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.NGAYSINH)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.NGAYSINH)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.SODIENTHOAI)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.SODIENTHOAI)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.EMAIL)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.EMAIL)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.DIACHI)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.DIACHI)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.MATKHAU)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.MATKHAU)
+                    </dd>
+                    <p>
+                        @Html.ActionLink("Sửa", "Edit", new { id = Model.MANGUOIDUNG }) |
+                        @Html.ActionLink("Về Danh sách", "Index")
+                    </p>
+                </dl>
+
+                @section Scripts {
+                    <!-- Bootstrap core JavaScript-->
+                    <script src="~/Content/vendor/jquery/jquery.min.js"></script>
+                    <script src="~/Content/vendor/bootstrap/~/Scripts/js/bootstrap.bundle.min.js"></script>
+
+                    <!-- Core plugin JavaScript-->
+                    <script src="~/Content/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+                    <!-- Custom scripts for all pages-->
+                    <script src="~/Scripts/js/sb-admin-2.min.js"></script>
+
+                    <!-- Page level plugins -->
+                    <script src="~/Content/vendor/datatables/jquery.dataTables.min.js"></script>
+                    <script src="~/Content/vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
+                    <!-- Page level custom scripts -->
+                    <script src="~/Scripts/js/demo/datatables-demo.js"></script>
+                }
+            </div>
+        </div>
+    </div>
+    <!-- /.container-fluid -->
+</div>
+<!-- End of Main Content -->

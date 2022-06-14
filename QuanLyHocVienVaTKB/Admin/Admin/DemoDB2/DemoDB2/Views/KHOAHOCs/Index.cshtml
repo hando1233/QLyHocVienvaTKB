@@ -1,0 +1,40 @@
+﻿@model IEnumerable<DemoDB2.Models.KHOAHOC>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.TenKhoaHoc)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Soluongsinhvien)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.TenKhoaHoc)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Soluongsinhvien)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.KhoaHocID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.KhoaHocID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.KhoaHocID })
+        </td>
+    </tr>
+}
+
+</table>

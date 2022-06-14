@@ -1,0 +1,134 @@
+﻿@model IEnumerable<DemoDB2.Models.RAOVAT>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!-- Begin Page Content -->
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    <h1 class="h3 mb-2 text-gray-800">Danh sách tin rao</h1>
+    <p class="mb-4">
+        @Html.ActionLink("Tạo tin rao mới", "Create")
+    </p>
+
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Thông tin tin rao</h6>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Tiêu Đề</th>
+                            <th>Hình Ảnh</th>
+                            <th>Ngày Đăng</th>
+                            <th>Ngày Hết Hạn</th>
+                            <th>Danh Mục</th>
+                            <th>Hình Thức</th>
+                            <th>Loại Tin</th>
+                            <th>Tình Trạng</th>
+                            <th>Kiểm Duyệt</th>
+                            <th>Người Đăng</th>
+                            <th>Mã ND</th>
+                            <th>Chức Năng</th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            <th>Tiêu Đề</th>
+                            <th>Hình Ảnh</th>
+                            <th>Ngày Đăng</th>
+                            <th>Ngày Hết Hạn</th>
+                            <th>Danh Mục</th>
+                            <th>Hình Thức</th>
+                            <th>Loại Tin</th>
+                            <th>Tình Trạng</th>
+                            <th>Kiểm Duyệt</th>
+                            <th>Người Đăng</th>
+                            <th>Mã ND</th>
+                            <th>Chức Năng</th>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.TIEUDE)
+                            </td>
+                            <td>
+                                <img src="@Url.Content(item.HINHANH1)" alt="" height="50" width="50">
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.NGAYGIODANG)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.NGAYHETHAN)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.CATEGORY.TENLOAI)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.HINHTHUC.HINHTHUC1)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.LOAITIN.LOAITIN1)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.TINHTRANG.TINHTRANG1)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.TRANGTHAI.TRANGTHAI1)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.USER.TENDANGNHAP)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.USER.MANGUOIDUNG)
+                            </td>
+                            <td>
+                                @{ if (item.MATRANGTHAI == 2)
+                                    {
+                                        @Html.ActionLink("Duyệt Bài", "Duyet", new { id = item.MATIN }); <p>|</p>
+                                    }
+                                }
+                                @Html.ActionLink("Sửa", "Edit", new { id = item.MATIN }) |
+                                @Html.ActionLink("Chi tiết", "Details", new { id = item.MATIN }) |
+                                @Html.ActionLink("Xóa", "Delete", new { id = item.MATIN })
+                            </td>
+                        </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-- /.container-fluid -->
+
+</div>
+<!-- End of Main Content -->
+@section Scripts{
+    <!-- Bootstrap core JavaScript-->
+    <script src="~/Content/vendor/jquery/jquery.min.js"></script>
+    <script src="~/Content/vendor/bootstrap/~/Scripts/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="~/Content/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="~/Scripts/js/sb-admin-2.min.js"></script>
+
+    <!-- Page level plugins -->
+    <script src="~/Content/vendor/datatables/jquery.dataTables.min.js"></script>
+    <script src="~/Content/vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="~/Scripts/js/demo/datatables-demo.js"></script>
+
+    <script src="~/Scripts/script.js"></script>
+}
+

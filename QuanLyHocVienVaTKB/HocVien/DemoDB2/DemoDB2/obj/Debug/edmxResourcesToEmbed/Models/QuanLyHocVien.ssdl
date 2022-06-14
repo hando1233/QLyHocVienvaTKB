@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HOCVIENVATKBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ADMIN">
+    <Key>
+      <PropertyRef Name="username" />
+    </Key>
+    <Property Name="username" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="password" Type="nvarchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="BANGDIEM">
+    <Key>
+      <PropertyRef Name="BangDiemID" />
+    </Key>
+    <Property Name="BangDiemID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ChiTietID" Type="int" />
+    <Property Name="HocVienID" Type="int" />
+    <Property Name="HoTen" Type="nvarchar" MaxLength="50" />
+    <Property Name="Diem1" Type="decimal" Precision="4" Scale="1" />
+    <Property Name="Diem2" Type="decimal" Precision="4" Scale="1" />
+    <Property Name="Diem3" Type="decimal" Precision="4" Scale="1" />
+    <Property Name="TongDiem" Type="tinyint" />
+    <Property Name="XepLoai" Type="nvarchar(max)" />
+    <Property Name="LanThi" Type="tinyint" />
+  </EntityType>
+  <EntityType Name="CHITIETKHOAHOC">
+    <Key>
+      <PropertyRef Name="ChiTietID" />
+    </Key>
+    <Property Name="ChiTietID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="GiangVienID" Type="int" />
+    <Property Name="PhongHocId" Type="varchar" MaxLength="5" />
+    <Property Name="KhoaHocID" Type="int" />
+    <Property Name="NgayBatDauKhoaHoc" Type="datetime" />
+    <Property Name="NgayKetThucKhoaHoc" Type="datetime" />
+    <Property Name="SoTiet" Type="tinyint" />
+    <Property Name="TietBatDau" Type="tinyint" />
+  </EntityType>
+  <EntityType Name="GIANGVIEN">
+    <Key>
+      <PropertyRef Name="GiangVienID" />
+    </Key>
+    <Property Name="GiangVienID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TenGiangVien" Type="nvarchar" MaxLength="50" />
+    <Property Name="SoDienThoai" Type="varchar" MaxLength="20" />
+    <Property Name="HocVi" Type="nvarchar" MaxLength="20" />
+    <Property Name="Email" Type="nvarchar" MaxLength="20" />
+    <Property Name="Matkhau" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="HOCVIEN">
+    <Key>
+      <PropertyRef Name="HocVienID" />
+    </Key>
+    <Property Name="HocVienID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="HoTen" Type="nvarchar" MaxLength="50" />
+    <Property Name="DiaChi" Type="nvarchar" MaxLength="100" />
+    <Property Name="SoDienThoai" Type="varchar" MaxLength="20" />
+    <Property Name="NgaySinh" Type="datetime" />
+    <Property Name="Email" Type="varchar" MaxLength="30" />
+    <Property Name="GioiTinh" Type="nvarchar" MaxLength="15" />
+    <Property Name="UserName" Type="varchar" MaxLength="10" />
+    <Property Name="Password" Type="varchar" MaxLength="30" />
+    <Property Name="BangDiemID" Type="int" />
+  </EntityType>
+  <EntityType Name="KHOAHOC">
+    <Key>
+      <PropertyRef Name="KhoaHocID" />
+    </Key>
+    <Property Name="KhoaHocID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TenKhoaHoc" Type="nvarchar" MaxLength="50" />
+    <Property Name="Soluongsinhvien" Type="int" />
+  </EntityType>
+  <EntityType Name="PHONGHOC">
+    <Key>
+      <PropertyRef Name="PhongHocId" />
+    </Key>
+    <Property Name="PhongHocId" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="LoaiPhongHoc" Type="nvarchar" MaxLength="20" />
+    <Property Name="Diachi" Type="nvarchar" MaxLength="100" />
+    <Property Name="SucChuaPhongHoc" Type="int" />
+    <Property Name="TenPhongHoc" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="THOIKHOABIEU">
+    <Key>
+      <PropertyRef Name="ThoiKhoaBieuID" />
+    </Key>
+    <Property Name="ThoiKhoaBieuID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ChiTietID" Type="int" />
+    <Property Name="HocVienID" Type="int" />
+    <Property Name="NgayBatDau" Type="datetime" />
+    <Property Name="NgayKetThuc" Type="datetime" />
+    <Property Name="HocKy" Type="int" />
+  </EntityType>
+  <Association Name="FK_BD_CTKH">
+    <End Role="CHITIETKHOAHOC" Type="Self.CHITIETKHOAHOC" Multiplicity="0..1" />
+    <End Role="BANGDIEM" Type="Self.BANGDIEM" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CHITIETKHOAHOC">
+        <PropertyRef Name="ChiTietID" />
+      </Principal>
+      <Dependent Role="BANGDIEM">
+        <PropertyRef Name="ChiTietID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BD_HV">
+    <End Role="HOCVIEN" Type="Self.HOCVIEN" Multiplicity="0..1" />
+    <End Role="BANGDIEM" Type="Self.BANGDIEM" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HOCVIEN">
+        <PropertyRef Name="HocVienID" />
+      </Principal>
+      <Dependent Role="BANGDIEM">
+        <PropertyRef Name="HocVienID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CTKH_GV">
+    <End Role="GIANGVIEN" Type="Self.GIANGVIEN" Multiplicity="0..1" />
+    <End Role="CHITIETKHOAHOC" Type="Self.CHITIETKHOAHOC" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GIANGVIEN">
+        <PropertyRef Name="GiangVienID" />
+      </Principal>
+      <Dependent Role="CHITIETKHOAHOC">
+        <PropertyRef Name="GiangVienID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CTKH_KH">
+    <End Role="KHOAHOC" Type="Self.KHOAHOC" Multiplicity="0..1" />
+    <End Role="CHITIETKHOAHOC" Type="Self.CHITIETKHOAHOC" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KHOAHOC">
+        <PropertyRef Name="KhoaHocID" />
+      </Principal>
+      <Dependent Role="CHITIETKHOAHOC">
+        <PropertyRef Name="KhoaHocID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CTKH_PH">
+    <End Role="PHONGHOC" Type="Self.PHONGHOC" Multiplicity="0..1" />
+    <End Role="CHITIETKHOAHOC" Type="Self.CHITIETKHOAHOC" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PHONGHOC">
+        <PropertyRef Name="PhongHocId" />
+      </Principal>
+      <Dependent Role="CHITIETKHOAHOC">
+        <PropertyRef Name="PhongHocId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TKB_CTKH">
+    <End Role="CHITIETKHOAHOC" Type="Self.CHITIETKHOAHOC" Multiplicity="0..1" />
+    <End Role="THOIKHOABIEU" Type="Self.THOIKHOABIEU" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CHITIETKHOAHOC">
+        <PropertyRef Name="ChiTietID" />
+      </Principal>
+      <Dependent Role="THOIKHOABIEU">
+        <PropertyRef Name="ChiTietID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TKB_HV">
+    <End Role="HOCVIEN" Type="Self.HOCVIEN" Multiplicity="0..1" />
+    <End Role="THOIKHOABIEU" Type="Self.THOIKHOABIEU" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HOCVIEN">
+        <PropertyRef Name="HocVienID" />
+      </Principal>
+      <Dependent Role="THOIKHOABIEU">
+        <PropertyRef Name="HocVienID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="HOCVIENVATKBModelStoreContainer">
+    <EntitySet Name="ADMIN" EntityType="Self.ADMIN" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="BANGDIEM" EntityType="Self.BANGDIEM" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CHITIETKHOAHOC" EntityType="Self.CHITIETKHOAHOC" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="GIANGVIEN" EntityType="Self.GIANGVIEN" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="HOCVIEN" EntityType="Self.HOCVIEN" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="KHOAHOC" EntityType="Self.KHOAHOC" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PHONGHOC" EntityType="Self.PHONGHOC" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="THOIKHOABIEU" EntityType="Self.THOIKHOABIEU" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_BD_CTKH" Association="Self.FK_BD_CTKH">
+      <End Role="CHITIETKHOAHOC" EntitySet="CHITIETKHOAHOC" />
+      <End Role="BANGDIEM" EntitySet="BANGDIEM" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BD_HV" Association="Self.FK_BD_HV">
+      <End Role="HOCVIEN" EntitySet="HOCVIEN" />
+      <End Role="BANGDIEM" EntitySet="BANGDIEM" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CTKH_GV" Association="Self.FK_CTKH_GV">
+      <End Role="GIANGVIEN" EntitySet="GIANGVIEN" />
+      <End Role="CHITIETKHOAHOC" EntitySet="CHITIETKHOAHOC" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CTKH_KH" Association="Self.FK_CTKH_KH">
+      <End Role="KHOAHOC" EntitySet="KHOAHOC" />
+      <End Role="CHITIETKHOAHOC" EntitySet="CHITIETKHOAHOC" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CTKH_PH" Association="Self.FK_CTKH_PH">
+      <End Role="PHONGHOC" EntitySet="PHONGHOC" />
+      <End Role="CHITIETKHOAHOC" EntitySet="CHITIETKHOAHOC" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TKB_CTKH" Association="Self.FK_TKB_CTKH">
+      <End Role="CHITIETKHOAHOC" EntitySet="CHITIETKHOAHOC" />
+      <End Role="THOIKHOABIEU" EntitySet="THOIKHOABIEU" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TKB_HV" Association="Self.FK_TKB_HV">
+      <End Role="HOCVIEN" EntitySet="HOCVIEN" />
+      <End Role="THOIKHOABIEU" EntitySet="THOIKHOABIEU" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

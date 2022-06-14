@@ -1,0 +1,3 @@
+﻿@model DemoDB2.Models.TINHTRANG
+@Html.DropDownListFor(model => model.MATINHTRANG,
+new SelectList(Model.ListTinhTrang.OrderBy(model => model.TINHTRANG1), "MATINHTRANG", "TINHTRANG1"), "--Chọn Tình Trạng--")

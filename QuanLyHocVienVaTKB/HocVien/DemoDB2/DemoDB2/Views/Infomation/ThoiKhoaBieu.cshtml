@@ -1,0 +1,117 @@
+﻿@model IEnumerable<DemoDB2.Models.THOIKHOABIEU>
+
+@{
+    ViewBag.Title = "ThoiKhoaBieu";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Begin Page Content -->
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    <h1 class="h3 mb-2 text-gray-800">Chi tiết thời khóa biểu</h1>
+
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Thời khóa biểu học viên</h6>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Mã thời khóa biểu </th>
+                            <th>Ngày bắt đầu </th>
+                            <th>Ngày kết thúc </th>
+                            <th>Học kỳ</th>
+                            <th>Họ tên </th>
+                            <th>Tên khóa học</th>
+                            <th>Số phòng</th>
+                            <th>Tên giảng viên</th>
+                            <th>Số tiết</th>
+                            <th>Tiết bắt đầu </th>
+                            <th>Ngày bắt đầu khóa học</th>
+                            <th>Ngày kết thúc khóa học</th>
+
+                            <th></th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.ThoiKhoaBieuID)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.NgayBatDau)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.NgayKetThuc)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.HocKy)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.HOCVIEN.HoTen)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.CHITIETKHOAHOC.KHOAHOC.TenKhoaHoc)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.CHITIETKHOAHOC.PHONGHOC.TenPhongHoc)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.CHITIETKHOAHOC.GIANGVIEN.TenGiangVien)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.CHITIETKHOAHOC.SoTiet)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.CHITIETKHOAHOC.TietBatDau)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.CHITIETKHOAHOC.NgayBatDauKhoaHoc)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.CHITIETKHOAHOC.NgayKetThucKhoaHoc)
+                                </td>
+
+                                <td>
+                                    @Html.ActionLink("Sửa", "Edit", new { id = item.ThoiKhoaBieuID }, new { @class = "btn btn-primary" })
+                                    @Html.ActionLink("Chi tiết", "Details", new { id = item.ThoiKhoaBieuID }, new { @class = "btn btn-warning" })
+                                    @Html.ActionLink("Xóa", "Delete", new { id = item.ThoiKhoaBieuID }, new { @class = "btn btn-danger" })
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    </table>
+    <!-- End of Main Content -->
+    @section Scripts{
+        <!-- Bootstrap core JavaScript-->
+        <script src="~/Content/vendor/jquery/jquery.min.js"></script>
+        <script src="~/Content/vendor/bootstrap/~/Scripts/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Core plugin JavaScript-->
+        <script src="~/Content/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+        <!-- Custom scripts for all pages-->
+        <script src="~/Scripts/js/sb-admin-2.min.js"></script>
+
+        <!-- Page level plugins -->
+        <script src="~/Content/vendor/datatables/jquery.dataTables.min.js"></script>
+        <script src="~/Content/vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
+        <!-- Page level custom scripts -->
+        <script src="~/Scripts/js/demo/datatables-demo.js"></script>
+
+        <script src="~/Scripts/script.js"></script>
+    }
+    <div style="margin-bottom:450px"></div>

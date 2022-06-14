@@ -1,0 +1,161 @@
+﻿@model DemoDB2.Models.RAOVAT
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Begin Page Content -->
+<div class="container-fluid">
+    <!-- Begin Page Content -->
+    <div class="container-fluid">
+        <!-- DataTales Example -->
+        <div class="card shadow mb-4">
+            <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary">Chi tiết tin rao</h6>
+            </div>
+            <div class="card-body">
+                <h4>Thông tin tin rao</h4>
+                <hr />
+                <dl class="dl-horizontal">
+                    <dt>
+                        @Html.DisplayNameFor(model => model.MATIN)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.MATIN)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.MATRANGTHAI)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.MATRANGTHAI)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.MALOAI)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.MALOAI)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.MATINHTRANG)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.MATINHTRANG)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.MALOAITIN)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.MALOAITIN)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.MAHINHTHUC)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.MAHINHTHUC)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.MANGUOIDUNG)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.MANGUOIDUNG)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.TIEUDE)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.TIEUDE)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.HINHANH1)
+                    </dt>
+
+                    <dd>
+                        <img src="@Url.Content(Model.HINHANH1)" alt="" height="50" width="50">
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.NOIDUNG)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.NOIDUNG)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.NGAYGIODANG)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.NGAYGIODANG)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.GIA)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.GIA)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.DIACHI)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.DIACHI)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.NGAYHETHAN)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.NGAYHETHAN)
+                    </dd>
+                    <p>
+                        @Html.ActionLink("Sửa", "Edit", new { id = Model.MATIN }) |
+                        @Html.ActionLink("Về Danh sách", "Index")
+                    </p>
+                </dl>
+
+                @section Scripts {
+                    <!-- Bootstrap core JavaScript-->
+                    <script src="~/Content/vendor/jquery/jquery.min.js"></script>
+                    <script src="~/Content/vendor/bootstrap/~/Scripts/js/bootstrap.bundle.min.js"></script>
+
+                    <!-- Core plugin JavaScript-->
+                    <script src="~/Content/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+                    <!-- Custom scripts for all pages-->
+                    <script src="~/Scripts/js/sb-admin-2.min.js"></script>
+
+                    <!-- Page level plugins -->
+                    <script src="~/Content/vendor/datatables/jquery.dataTables.min.js"></script>
+                    <script src="~/Content/vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
+                    <!-- Page level custom scripts -->
+                    <script src="~/Scripts/js/demo/datatables-demo.js"></script>
+                }
+            </div>
+        </div>
+    </div>
+    <!-- /.container-fluid -->
+</div>
+<!-- End of Main Content -->

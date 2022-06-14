@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="86ad4f2e3ee44f47993aadaa31f34734" Name="Diagram1">
+        <EntityTypeShape EntityType="DBRaoVatModel.CATEGORY" Width="1.5" PointX="0.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBRaoVatModel.HINHTHUC" Width="1.5" PointX="0.75" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBRaoVatModel.LOAITIN" Width="1.5" PointX="0.75" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBRaoVatModel.RAOVAT" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBRaoVatModel.sysdiagram" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBRaoVatModel.TINHTHANHPHO" Width="1.5" PointX="0.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBRaoVatModel.TINHTRANG" Width="1.5" PointX="0.75" PointY="13.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBRaoVatModel.TRANGTHAI" Width="1.5" PointX="0.75" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBRaoVatModel.USER" Width="1.5" PointX="0.75" PointY="18.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBRaoVatModel.ADMIN" Width="1.5" PointX="5.75" PointY="3.75" IsExpanded="true" />
+        <AssociationConnector Association="DBRaoVatModel.FK_RAOVAT_CATEGORY" ManuallyRouted="false" />
+        <AssociationConnector Association="DBRaoVatModel.FK_RAOVAT_HINHTHUC" ManuallyRouted="false" />
+        <AssociationConnector Association="DBRaoVatModel.FK_RAOVAT_LOAITIN" ManuallyRouted="false" />
+        <AssociationConnector Association="DBRaoVatModel.FK_RAOVAT_TINHTHANHPHO" ManuallyRouted="false" />
+        <AssociationConnector Association="DBRaoVatModel.FK_RAOVAT_TINHTRANG" ManuallyRouted="false" />
+        <AssociationConnector Association="DBRaoVatModel.FK_RAOVAT_TRANGTHAI" ManuallyRouted="false" />
+        <AssociationConnector Association="DBRaoVatModel.FK_RAOVAT_USER" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

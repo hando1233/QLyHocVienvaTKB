@@ -1,0 +1,75 @@
+﻿@model DemoDB2.Models.HOCVIEN
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Xóa học viên</h2>
+<h3>Bạn chắc chắn muốn xóa học viên này?</h3>
+
+<table class="table table-bordered " id="dataTable" width="100%" cellspacing="0">
+    <thead>
+        <tr>
+            <th>STT</th>
+            <th>Họ tên học viên</th>
+            <th>Địa chỉ</th>
+            <th>Số điện thoại</th>
+            <th>Ngày sinh</th>
+            <th>Email</th>
+            <th>Giới tính</th>
+            <th>Tên đăng nhập</th>
+            <th>Mật khẩu</th>
+
+        </tr>
+    </thead>
+
+    <tbody>
+
+        <tr>
+            <td>
+                @Html.DisplayFor(model => model.HocVienID)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.HoTen)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.DiaChi)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.SoDienThoai)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.NgaySinh)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.GioiTinh)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.UserName)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.Password)
+            </td>
+
+        </tr>
+
+    </tbody>
+</table>
+    </table>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-actions no-color">
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        @Html.ActionLink("Trở về danh sách", "Index")
+    </div>
+}
+
+<div style="margin-bottom:450px">
+</div>

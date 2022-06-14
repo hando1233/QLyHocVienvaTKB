@@ -1,0 +1,712 @@
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\DemoDB2.dll.config
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\DemoDB2.dll
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\DemoDB2.pdb
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\roslyn\csc.exe
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\roslyn\csc.exe.config
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\roslyn\csc.rsp
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\roslyn\csi.exe
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\roslyn\csi.exe.config
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\roslyn\csi.rsp
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.Managed.Core.targets
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Buffers.dll
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Collections.Immutable.dll
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Memory.dll
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Numerics.Vectors.dll
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Reflection.Metadata.dll
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\roslyn\vbc.exe
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\roslyn\vbc.exe.config
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\roslyn\vbc.rsp
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\roslyn\VBCSCompiler.exe
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\roslyn\VBCSCompiler.exe.config
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\Antlr3.Runtime.dll
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\EntityFramework.dll
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\EntityFramework.SqlServer.dll
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\Microsoft.Web.Infrastructure.dll
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\Newtonsoft.Json.dll
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\System.Web.Helpers.dll
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\System.Web.Mvc.dll
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\System.Web.Optimization.dll
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\System.Web.Razor.dll
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.Deployment.dll
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.dll
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.Razor.dll
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\WebGrease.dll
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\EntityFramework.xml
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\EntityFramework.SqlServer.xml
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\Newtonsoft.Json.xml
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\System.Web.Helpers.xml
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\System.Web.Mvc.xml
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\System.Web.Optimization.xml
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\System.Web.Razor.xml
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.xml
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.Deployment.xml
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.Razor.xml
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\bin\Antlr3.Runtime.pdb
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\obj\Debug\DemoDB2.csproj.CoreCompileInputs.cache
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\obj\Debug\DemoDB2.csproj.CopyComplete
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\obj\Debug\DemoDB2.dll
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\obj\Debug\DemoDB2.pdb
+D:\HUFLIT HK 2 NAM 3\Do An 1\Admin\DemoDB2\DemoDB2\obj\Debug\DemoDB2.csprojAssemblyReference.cache
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\obj\Debug\DemoDB2.csproj.CoreCompileInputs.cache
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\obj\Debug\DemoDB2.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\obj\Debug\DemoDB2.pdb
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\DemoDB2.dll.config
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\DemoDB2.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\DemoDB2.pdb
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\roslyn\csc.exe
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\roslyn\csc.exe.config
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\roslyn\csc.rsp
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\roslyn\csi.exe
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\roslyn\csi.exe.config
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\roslyn\csi.rsp
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.Managed.Core.targets
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Buffers.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Collections.Immutable.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Memory.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Numerics.Vectors.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Reflection.Metadata.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\roslyn\vbc.exe
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\roslyn\vbc.exe.config
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\roslyn\vbc.rsp
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\roslyn\VBCSCompiler.exe
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\roslyn\VBCSCompiler.exe.config
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\Antlr3.Runtime.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\EntityFramework.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\EntityFramework.SqlServer.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\Microsoft.Web.Infrastructure.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\Newtonsoft.Json.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\System.Web.Helpers.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\System.Web.Mvc.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\System.Web.Optimization.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\System.Web.Razor.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.Deployment.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.Razor.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\WebGrease.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\EntityFramework.xml
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\EntityFramework.SqlServer.xml
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\Newtonsoft.Json.xml
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\System.Web.Helpers.xml
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\System.Web.Mvc.xml
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\System.Web.Optimization.xml
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\System.Web.Razor.xml
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.xml
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.Deployment.xml
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.Razor.xml
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\bin\Antlr3.Runtime.pdb
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\obj\Debug\DemoDB2.csproj.CopyComplete
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\DemoDB2\DemoDB2\obj\Debug\DemoDB2.csprojAssemblyReference.cache
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\DemoDB2.dll.config
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\DemoDB2.dll
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\DemoDB2.pdb
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\csc.exe
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\csc.exe.config
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\csc.rsp
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\csi.exe
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\csi.exe.config
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\csi.rsp
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Buffers.dll
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Memory.dll
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\vbc.exe
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\vbc.exe.config
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\vbc.rsp
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\VBCSCompiler.exe
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\Antlr3.Runtime.dll
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\EntityFramework.dll
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\EntityFramework.SqlServer.dll
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\Newtonsoft.Json.dll
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\System.Web.Helpers.dll
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\System.Web.Mvc.dll
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\System.Web.Optimization.dll
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\System.Web.Razor.dll
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.dll
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.Razor.dll
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\WebGrease.dll
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\EntityFramework.xml
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\EntityFramework.SqlServer.xml
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\Newtonsoft.Json.xml
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\System.Web.Helpers.xml
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\System.Web.Mvc.xml
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\System.Web.Optimization.xml
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\System.Web.Razor.xml
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.xml
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.Razor.xml
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\Antlr3.Runtime.pdb
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\obj\Debug\DemoDB2.csprojAssemblyReference.cache
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\obj\Debug\DemoDB2.csproj.CoreCompileInputs.cache
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\obj\Debug\DemoDB2.csproj.CopyComplete
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\obj\Debug\DemoDB2.dll
+C:\Users\Quoc Huy\Downloads\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\obj\Debug\DemoDB2.pdb
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\obj\Debug\DemoDB2.csprojAssemblyReference.cache
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\obj\Debug\DemoDB2.csproj.CoreCompileInputs.cache
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\obj\Debug\DemoDB2.dll
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\obj\Debug\DemoDB2.pdb
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\DemoDB2.dll.config
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\DemoDB2.dll
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\DemoDB2.pdb
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\csc.exe
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\csc.exe.config
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\csc.rsp
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\csi.exe
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\csi.exe.config
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\csi.rsp
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.Managed.Core.targets
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Buffers.dll
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Collections.Immutable.dll
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Memory.dll
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Numerics.Vectors.dll
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Reflection.Metadata.dll
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\vbc.exe
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\vbc.exe.config
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\vbc.rsp
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\VBCSCompiler.exe
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\roslyn\VBCSCompiler.exe.config
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\Antlr3.Runtime.dll
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\EntityFramework.dll
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\EntityFramework.SqlServer.dll
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\Microsoft.Web.Infrastructure.dll
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\Newtonsoft.Json.dll
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\System.Web.Helpers.dll
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\System.Web.Mvc.dll
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\System.Web.Optimization.dll
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\System.Web.Razor.dll
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.Deployment.dll
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.dll
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.Razor.dll
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\WebGrease.dll
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\EntityFramework.xml
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\EntityFramework.SqlServer.xml
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\Newtonsoft.Json.xml
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\System.Web.Helpers.xml
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\System.Web.Mvc.xml
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\System.Web.Optimization.xml
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\System.Web.Razor.xml
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.xml
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.Deployment.xml
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.Razor.xml
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\bin\Antlr3.Runtime.pdb
+D:\WebRaoVat-main (1)\WebRaoVat-main\Admin\DemoDB2\DemoDB2\obj\Debug\DemoDB2.csproj.CopyComplete
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\DemoDB2.dll.config
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\DemoDB2.dll
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\DemoDB2.pdb
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\csc.exe
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\csc.exe.config
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\csc.rsp
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\csi.exe
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\csi.exe.config
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\csi.rsp
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Buffers.dll
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Memory.dll
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\vbc.exe
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\vbc.exe.config
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\vbc.rsp
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\VBCSCompiler.exe
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\Antlr3.Runtime.dll
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\EntityFramework.dll
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\EntityFramework.SqlServer.dll
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\Newtonsoft.Json.dll
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.Helpers.dll
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.Mvc.dll
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.Optimization.dll
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.Razor.dll
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.Deployment.dll
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.dll
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.Razor.dll
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\WebGrease.dll
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\EntityFramework.xml
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\EntityFramework.SqlServer.xml
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\Newtonsoft.Json.xml
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.Helpers.xml
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.Mvc.xml
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.Optimization.xml
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.Razor.xml
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.xml
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.Deployment.xml
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.Razor.xml
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\bin\Antlr3.Runtime.pdb
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\obj\Debug\DemoDB2.csprojAssemblyReference.cache
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\obj\Debug\DemoDB2.csproj.CoreCompileInputs.cache
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\obj\Debug\DemoDB2.csproj.CopyComplete
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\obj\Debug\DemoDB2.dll
+C:\Users\THONG\Downloads\Admin\Admin\DemoDB2\DemoDB2\obj\Debug\DemoDB2.pdb
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\DemoDB2.dll.config
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\DemoDB2.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\DemoDB2.pdb
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\csc.exe
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\csc.exe.config
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\csc.rsp
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\csi.exe
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\csi.exe.config
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\csi.rsp
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.Managed.Core.targets
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Buffers.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Collections.Immutable.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Memory.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Numerics.Vectors.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Reflection.Metadata.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\vbc.exe
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\vbc.exe.config
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\vbc.rsp
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\VBCSCompiler.exe
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\VBCSCompiler.exe.config
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\Antlr3.Runtime.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\EntityFramework.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\EntityFramework.SqlServer.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\Microsoft.Web.Infrastructure.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\Newtonsoft.Json.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.Helpers.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.Mvc.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.Optimization.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.Razor.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.Deployment.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.Razor.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\WebGrease.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\EntityFramework.xml
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\EntityFramework.SqlServer.xml
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\Newtonsoft.Json.xml
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.Helpers.xml
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.Mvc.xml
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.Optimization.xml
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.Razor.xml
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.xml
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.Deployment.xml
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.Razor.xml
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\bin\Antlr3.Runtime.pdb
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\obj\Debug\DemoDB2.csprojAssemblyReference.cache
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\obj\Debug\DemoDB2.csproj.CoreCompileInputs.cache
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\obj\Debug\DemoDB2.csproj.CopyComplete
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\obj\Debug\DemoDB2.dll
+D:\HUFLIT HK 2 NAM 3\Lap Trinh Tren Web NC\Do An\Admin\Admin\DemoDB2\DemoDB2\obj\Debug\DemoDB2.pdb
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\DemoDB2.dll.config
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\DemoDB2.dll
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\DemoDB2.pdb
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\csc.exe
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\csc.exe.config
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\csc.rsp
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\csi.exe
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\csi.exe.config
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\csi.rsp
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.Managed.Core.targets
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Buffers.dll
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Collections.Immutable.dll
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Memory.dll
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Numerics.Vectors.dll
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Reflection.Metadata.dll
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\vbc.exe
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\vbc.exe.config
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\vbc.rsp
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\VBCSCompiler.exe
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\VBCSCompiler.exe.config
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\Antlr3.Runtime.dll
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\EntityFramework.dll
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\EntityFramework.SqlServer.dll
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\Microsoft.Web.Infrastructure.dll
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\Newtonsoft.Json.dll
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.Helpers.dll
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.Mvc.dll
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.Optimization.dll
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.Razor.dll
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.Deployment.dll
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.dll
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.Razor.dll
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\WebGrease.dll
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\EntityFramework.xml
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\EntityFramework.SqlServer.xml
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\Newtonsoft.Json.xml
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.Helpers.xml
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.Mvc.xml
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.Optimization.xml
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.Razor.xml
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.xml
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.Deployment.xml
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.Razor.xml
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\Antlr3.Runtime.pdb
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\obj\Debug\DemoDB2.csproj.AssemblyReference.cache
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\obj\Debug\DemoDB2.csproj.CoreCompileInputs.cache
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\obj\Debug\DemoDB2.csproj.CopyComplete
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\obj\Debug\DemoDB2.dll
+D:\rao vặt\Admin\Admin\DemoDB2\DemoDB2\obj\Debug\DemoDB2.pdb
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\DemoDB2.dll.config
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\DemoDB2.dll
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\DemoDB2.pdb
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\csc.exe
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\csc.exe.config
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\csc.rsp
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\csi.exe
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\csi.exe.config
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\csi.rsp
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.Managed.Core.targets
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Buffers.dll
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Collections.Immutable.dll
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Memory.dll
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Numerics.Vectors.dll
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Reflection.Metadata.dll
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\vbc.exe
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\vbc.exe.config
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\vbc.rsp
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\VBCSCompiler.exe
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\roslyn\VBCSCompiler.exe.config
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\Antlr3.Runtime.dll
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\EntityFramework.dll
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\EntityFramework.SqlServer.dll
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\Microsoft.Web.Infrastructure.dll
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\Newtonsoft.Json.dll
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.Helpers.dll
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.Mvc.dll
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.Optimization.dll
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.Razor.dll
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.Deployment.dll
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.dll
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.Razor.dll
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\WebGrease.dll
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\EntityFramework.xml
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\EntityFramework.SqlServer.xml
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\Newtonsoft.Json.xml
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.Helpers.xml
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.Mvc.xml
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.Optimization.xml
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.Razor.xml
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.xml
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.Deployment.xml
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.Razor.xml
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\bin\Antlr3.Runtime.pdb
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\obj\Debug\DemoDB2.csproj.AssemblyReference.cache
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\obj\Debug\DemoDB2.csproj.CoreCompileInputs.cache
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\obj\Debug\DemoDB2.csproj.CopyComplete
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\obj\Debug\DemoDB2.dll
+D:\TEST\TEST HỌC VIÊN\Admin\rao vặt\Admin\Admin\DemoDB2\DemoDB2\obj\Debug\DemoDB2.pdb
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\DemoDB2.dll.config
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\DemoDB2.dll
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\DemoDB2.pdb
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\roslyn\csc.exe
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\roslyn\csc.exe.config
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\roslyn\csc.rsp
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\roslyn\csi.exe
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\roslyn\csi.exe.config
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\roslyn\csi.rsp
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.Managed.Core.targets
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Buffers.dll
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Collections.Immutable.dll
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Memory.dll
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Numerics.Vectors.dll
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Reflection.Metadata.dll
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\roslyn\vbc.exe
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\roslyn\vbc.exe.config
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\roslyn\vbc.rsp
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\roslyn\VBCSCompiler.exe
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\roslyn\VBCSCompiler.exe.config
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\Antlr3.Runtime.dll
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\EntityFramework.dll
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\EntityFramework.SqlServer.dll
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\Microsoft.Web.Infrastructure.dll
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\Newtonsoft.Json.dll
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\System.Web.Helpers.dll
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\System.Web.Mvc.dll
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\System.Web.Optimization.dll
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\System.Web.Razor.dll
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.Deployment.dll
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.dll
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.Razor.dll
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\WebGrease.dll
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\EntityFramework.xml
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\EntityFramework.SqlServer.xml
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\Newtonsoft.Json.xml
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\System.Web.Helpers.xml
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\System.Web.Mvc.xml
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\System.Web.Optimization.xml
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\System.Web.Razor.xml
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.xml
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.Deployment.xml
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\System.Web.WebPages.Razor.xml
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\bin\Antlr3.Runtime.pdb
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\obj\Debug\DemoDB2.csproj.AssemblyReference.cache
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\obj\Debug\DemoDB2.csproj.CoreCompileInputs.cache
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\obj\Debug\DemoDB2.csproj.CopyComplete
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\obj\Debug\DemoDB2.dll
+D:\TEST\TEST HỌC VIÊN\HocVien\Admin\DemoDB2\DemoDB2\obj\Debug\DemoDB2.pdb
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\DemoDB2.dll.config
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\DemoDB2.dll
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\DemoDB2.pdb
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\csc.exe
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\csc.exe.config
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\csc.rsp
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\csi.exe
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\csi.exe.config
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\csi.rsp
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\System.Buffers.dll
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\System.Memory.dll
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\vbc.exe
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\vbc.exe.config
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\vbc.rsp
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\VBCSCompiler.exe
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\Antlr3.Runtime.dll
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\EntityFramework.dll
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\EntityFramework.SqlServer.dll
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\FireSharp.dll
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\FireSharp.Serialization.JsonNet.dll
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\Newtonsoft.Json.dll
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\RestSharp.dll
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\System.Web.Helpers.dll
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\System.Web.Mvc.dll
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\System.Web.Optimization.dll
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\System.Web.Razor.dll
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\System.Web.WebPages.dll
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\System.Web.WebPages.Razor.dll
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\WebGrease.dll
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\EntityFramework.xml
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\EntityFramework.SqlServer.xml
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\Newtonsoft.Json.xml
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\RestSharp.xml
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\System.Web.Helpers.xml
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\System.Web.Mvc.xml
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\System.Web.Optimization.xml
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\System.Web.Razor.xml
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\System.Web.WebPages.xml
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\System.Web.WebPages.Razor.xml
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\Antlr3.Runtime.pdb
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\obj\Debug\DemoDB2.csproj.AssemblyReference.cache
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\obj\Debug\DemoDB2.csproj.CoreCompileInputs.cache
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\obj\Debug\DemoDB2.csproj.CopyComplete
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\obj\Debug\DemoDB2.dll
+C:\Users\Hades\Desktop\TEST HỌC VIÊN\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\obj\Debug\DemoDB2.pdb
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\DemoDB2.dll.config
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\DemoDB2.dll
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\DemoDB2.pdb
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\csc.exe
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\csc.exe.config
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\csc.rsp
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\csi.exe
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\csi.exe.config
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\csi.rsp
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\Microsoft.Managed.Core.targets
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\System.Buffers.dll
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\System.Collections.Immutable.dll
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\System.Memory.dll
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\System.Numerics.Vectors.dll
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\System.Reflection.Metadata.dll
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\vbc.exe
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\vbc.exe.config
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\vbc.rsp
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\VBCSCompiler.exe
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\roslyn\VBCSCompiler.exe.config
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\Antlr3.Runtime.dll
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\EntityFramework.dll
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\EntityFramework.SqlServer.dll
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\FireSharp.dll
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\FireSharp.Serialization.JsonNet.dll
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\Microsoft.Web.Infrastructure.dll
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\Newtonsoft.Json.dll
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\RestSharp.dll
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\System.Web.Helpers.dll
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\System.Web.Mvc.dll
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\System.Web.Optimization.dll
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\System.Web.Razor.dll
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\System.Web.WebPages.Deployment.dll
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\System.Web.WebPages.dll
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\System.Web.WebPages.Razor.dll
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\WebGrease.dll
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\EntityFramework.xml
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\EntityFramework.SqlServer.xml
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\Newtonsoft.Json.xml
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\RestSharp.xml
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\System.Web.Helpers.xml
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\System.Web.Mvc.xml
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\System.Web.Optimization.xml
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\System.Web.Razor.xml
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\System.Web.WebPages.xml
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\System.Web.WebPages.Deployment.xml
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\System.Web.WebPages.Razor.xml
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\bin\Antlr3.Runtime.pdb
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\obj\Debug\DemoDB2.csproj.AssemblyReference.cache
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\obj\Debug\DemoDB2.csproj.CoreCompileInputs.cache
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\obj\Debug\DemoDB2.csproj.CopyComplete
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\obj\Debug\DemoDB2.dll
+D:\TEST\Testing\TEST HỌC VIÊN\HocVien\DemoDB2\DemoDB2\obj\Debug\DemoDB2.pdb

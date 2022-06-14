@@ -1,0 +1,140 @@
+﻿@model DemoDB2.Models.THOIKHOABIEU
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h1 class="h3 mb-2 text-gray-800">Bảng điểm chi tiết</h1>
+
+<table class="table table-bordered " id="dataTable" width="100%" cellspacing="0">
+    <thead>
+        <tr>
+            <th>Mã thời khóa biểu </th>
+            <th>Ngày bắt đầu </th>
+            <th>Ngày kết thúc </th>
+            <th>Học kỳ</th>
+            <th>Họ tên </th>
+            <th>Tên khóa học</th>
+            <th>Số phòng</th>
+            <th>Tên giảng viên</th>
+            <th>Số tiết</th>
+            <th>Tiết bắt đầu </th>
+            <th>Ngày bắt đầu khóa học</th>
+            <th>Ngày kết thúc khóa học</th>
+
+
+        </tr>
+    </thead>
+
+    <tbody>
+
+        <tr>
+            <td>
+                @Html.DisplayFor(model => model.ThoiKhoaBieuID)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.NgayBatDau)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.NgayKetThuc)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.HocKy)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.HOCVIEN.HoTen)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.CHITIETKHOAHOC.KHOAHOC.TenKhoaHoc)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.CHITIETKHOAHOC.PHONGHOC.TenPhongHoc)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.CHITIETKHOAHOC.GIANGVIEN.TenGiangVien)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.CHITIETKHOAHOC.SoTiet)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.CHITIETKHOAHOC.TietBatDau)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.CHITIETKHOAHOC.NgayBatDauKhoaHoc)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.CHITIETKHOAHOC.NgayKetThucKhoaHoc)
+            </td>
+        </tr>
+
+    </tbody>
+</table>
+    </table>
+<ul>
+    <li>
+        @Html.ActionLink("Sửa", "Edit", new { id = Model.ThoiKhoaBieuID }, new { @class = "btn btn-primary" })
+    </li>
+    <li>
+        @Html.ActionLink("Quay về danh sách", "Index", new { @class = "btn btn-default" })
+    </li>
+
+</ul>
+<div style="margin-bottom:450px">
+</div>
+
+
+
+
+@*<h2>Details</h2>
+
+    <div>
+        <h4>THOIKHOABIEU</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.NgayBatDau)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.NgayBatDau)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.NgayKetThuc)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.NgayKetThuc)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.HocKy)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.HocKy)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.CHITIETKHOAHOC.PhongHocId)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.CHITIETKHOAHOC.PhongHocId)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.HOCVIEN.HoTen)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.HOCVIEN.HoTen)
+            </dd>
+
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.ThoiKhoaBieuID }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+*@

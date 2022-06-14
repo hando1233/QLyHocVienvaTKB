@@ -1,0 +1,83 @@
+﻿@model DemoDB2.Models.BANGDIEM
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="text-center">Chỉnh sửa bảng điểm</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+       
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.BangDiemID)
+
+        <div class="form-group">
+            <p class="control-label col-md-2"> Tên khóa học</p>
+            <div class="col-md-10">
+                @Html.DropDownList("ChiTietID", null, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.ChiTietID, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <p class="control-label col-md-2"> Họ tên</p>
+            <div class="col-md-10">
+                @Html.DropDownList("HocVienID", null, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.HocVienID, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            <p class="control-label col-md-2"> Điểm 1</p>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Diem1, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Diem1, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <p class="control-label col-md-2"> Điểm 2</p>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Diem2, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Diem2, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <p class="control-label col-md-2">Điểm 3</p>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Diem3, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Diem3, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="form-group">
+        <p class="control-label col-md-2">Lần thi</p>
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.LanThi, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.LanThi, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Lưu" class="btn btn-primary" />
+        </div>
+    </div>
+   
+}
+
+<div>
+    @Html.ActionLink("Trở về danh sách", "Index")
+</div>
+<div style="margin-bottom:300px"></div>

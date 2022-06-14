@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DBThueXeModelStoreContainer" CdmEntityContainer="DBThueXeEntities">
+    <EntitySetMapping Name="CHITIETDONDATs">
+      <EntityTypeMapping TypeName="DBThueXeModel.CHITIETDONDAT">
+        <MappingFragment StoreEntitySet="CHITIETDONDAT">
+          <ScalarProperty Name="MACTDONDAT" ColumnName="MACTDONDAT" />
+          <ScalarProperty Name="MADATXE" ColumnName="MADATXE" />
+          <ScalarProperty Name="MAXE" ColumnName="MAXE" />
+          <ScalarProperty Name="MOTACT" ColumnName="MOTACT" />
+          <ScalarProperty Name="GIA" ColumnName="GIA" />
+          <ScalarProperty Name="SOLUONG" ColumnName="SOLUONG" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CHITIETHOPDONGs">
+      <EntityTypeMapping TypeName="DBThueXeModel.CHITIETHOPDONG">
+        <MappingFragment StoreEntitySet="CHITIETHOPDONG">
+          <ScalarProperty Name="MACTHOPDONG" ColumnName="MACTHOPDONG" />
+          <ScalarProperty Name="MAHOPDONG" ColumnName="MAHOPDONG" />
+          <ScalarProperty Name="MALOAIXE" ColumnName="MALOAIXE" />
+          <ScalarProperty Name="SOLUONG" ColumnName="SOLUONG" />
+          <ScalarProperty Name="GIA" ColumnName="GIA" />
+          <ScalarProperty Name="NGAYNHAN" ColumnName="NGAYNHAN" />
+          <ScalarProperty Name="NGAYTRA" ColumnName="NGAYTRA" />
+          <ScalarProperty Name="GHICHU" ColumnName="GHICHU" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CHITIETTHANHLYHOPDONGs">
+      <EntityTypeMapping TypeName="DBThueXeModel.CHITIETTHANHLYHOPDONG">
+        <MappingFragment StoreEntitySet="CHITIETTHANHLYHOPDONG">
+          <ScalarProperty Name="MACTTLHOPDONG" ColumnName="MACTTLHOPDONG" />
+          <ScalarProperty Name="MATLHOPDONG" ColumnName="MATLHOPDONG" />
+          <ScalarProperty Name="MAXE" ColumnName="MAXE" />
+          <ScalarProperty Name="NGAYNHANXE" ColumnName="NGAYNHANXE" />
+          <ScalarProperty Name="NGAYTRAXE" ColumnName="NGAYTRAXE" />
+          <ScalarProperty Name="GIA" ColumnName="GIA" />
+          <ScalarProperty Name="THANHTIEN" ColumnName="THANHTIEN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DONDATXEs">
+      <EntityTypeMapping TypeName="DBThueXeModel.DONDATXE">
+        <MappingFragment StoreEntitySet="DONDATXE">
+          <ScalarProperty Name="MADATXE" ColumnName="MADATXE" />
+          <ScalarProperty Name="MAKHACH" ColumnName="MAKHACH" />
+          <ScalarProperty Name="NGAYDAT" ColumnName="NGAYDAT" />
+          <ScalarProperty Name="TIENCOC" ColumnName="TIENCOC" />
+          <ScalarProperty Name="TIENTRA" ColumnName="TIENTRA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HOPDONGs">
+      <EntityTypeMapping TypeName="DBThueXeModel.HOPDONG">
+        <MappingFragment StoreEntitySet="HOPDONG">
+          <ScalarProperty Name="MAHOPDONG" ColumnName="MAHOPDONG" />
+          <ScalarProperty Name="MAKHACHHANG" ColumnName="MAKHACHHANG" />
+          <ScalarProperty Name="NGAY" ColumnName="NGAY" />
+          <ScalarProperty Name="NOIDUNG" ColumnName="NOIDUNG" />
+          <ScalarProperty Name="DK_CHUNG" ColumnName="DK_CHUNG" />
+          <ScalarProperty Name="DK_CUTHE" ColumnName="DK_CUTHE" />
+          <ScalarProperty Name="TIENTAMUNG" ColumnName="TIENTAMUNG" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KHACHHANGs">
+      <EntityTypeMapping TypeName="DBThueXeModel.KHACHHANG">
+        <MappingFragment StoreEntitySet="KHACHHANG">
+          <ScalarProperty Name="MAKHACHHANG" ColumnName="MAKHACHHANG" />
+          <ScalarProperty Name="TENKHACH" ColumnName="TENKHACH" />
+          <ScalarProperty Name="DIACHI" ColumnName="DIACHI" />
+          <ScalarProperty Name="CMND" ColumnName="CMND" />
+          <ScalarProperty Name="SODIENTHOAI" ColumnName="SODIENTHOAI" />
+          <ScalarProperty Name="SOTAIKHOAN" ColumnName="SOTAIKHOAN" />
+          <ScalarProperty Name="NGANHANG" ColumnName="NGANHANG" />
+          <ScalarProperty Name="TENCOQUAN" ColumnName="TENCOQUAN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LOAIXEs">
+      <EntityTypeMapping TypeName="DBThueXeModel.LOAIXE">
+        <MappingFragment StoreEntitySet="LOAIXE">
+          <ScalarProperty Name="MALOAIXE" ColumnName="MALOAIXE" />
+          <ScalarProperty Name="TENLOAIXE" ColumnName="TENLOAIXE" />
+          <ScalarProperty Name="SOCHO" ColumnName="SOCHO" />
+          <ScalarProperty Name="SOLUONGXE" ColumnName="SOLUONGXE" />
+          <ScalarProperty Name="HANGSANXUAT" ColumnName="HANGSANXUAT" />
+          <ScalarProperty Name="HINHANH" ColumnName="HINHANH" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="DBThueXeModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="THANHLYHOPDONGs">
+      <EntityTypeMapping TypeName="DBThueXeModel.THANHLYHOPDONG">
+        <MappingFragment StoreEntitySet="THANHLYHOPDONG">
+          <ScalarProperty Name="MATLHOPDONG" ColumnName="MATLHOPDONG" />
+          <ScalarProperty Name="MAHOPDONG" ColumnName="MAHOPDONG" />
+          <ScalarProperty Name="NGAY" ColumnName="NGAY" />
+          <ScalarProperty Name="HTTT" ColumnName="HTTT" />
+          <ScalarProperty Name="TONGSOXETHUE" ColumnName="TONGSOXETHUE" />
+          <ScalarProperty Name="TRATRUOC" ColumnName="TRATRUOC" />
+          <ScalarProperty Name="TONGTHANHTOAN" ColumnName="TONGTHANHTOAN" />
+          <ScalarProperty Name="SOTIENDANOP" ColumnName="SOTIENDANOP" />
+          <ScalarProperty Name="GHICHU" ColumnName="GHICHU" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="XEs">
+      <EntityTypeMapping TypeName="DBThueXeModel.XE">
+        <MappingFragment StoreEntitySet="XE">
+          <ScalarProperty Name="MAXE" ColumnName="MAXE" />
+          <ScalarProperty Name="MALOAIXE" ColumnName="MALOAIXE" />
+          <ScalarProperty Name="TENXE" ColumnName="TENXE" />
+          <ScalarProperty Name="BIENSO" ColumnName="BIENSO" />
+          <ScalarProperty Name="DONGIA" ColumnName="DONGIA" />
+          <ScalarProperty Name="SONGAYDAT" ColumnName="SONGAYDAT" />
+          <ScalarProperty Name="TIENCOC" ColumnName="TIENCOC" />
+          <ScalarProperty Name="TINHTRANG" ColumnName="TINHTRANG" />
+          <ScalarProperty Name="MOTA" ColumnName="MOTA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,83 @@
+﻿@model DemoDB2.Models.CHITIETKHOAHOC
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>CHITIETKHOAHOC</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Thu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Thu)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NgayBatDauKhoaHoc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NgayBatDauKhoaHoc)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NgayKetThucKhoaHoc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NgayKetThucKhoaHoc)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SoTiet)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SoTiet)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TietBatDau)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TietBatDau)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GIANGVIEN.TenGiangVien)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GIANGVIEN.TenGiangVien)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.KHOAHOC.TenKhoaHoc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.KHOAHOC.TenKhoaHoc)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PHONGHOC.LoaiPhongHoc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PHONGHOC.LoaiPhongHoc)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ChiTietID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

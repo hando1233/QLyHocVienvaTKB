@@ -1,0 +1,76 @@
+﻿@model IEnumerable<DemoDB2.Models.CHITIETKHOAHOC>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Thu)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NgayBatDauKhoaHoc)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NgayKetThucKhoaHoc)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SoTiet)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TietBatDau)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GIANGVIEN.TenGiangVien)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.KHOAHOC.TenKhoaHoc)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PHONGHOC.LoaiPhongHoc)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Thu)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NgayBatDauKhoaHoc)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NgayKetThucKhoaHoc)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SoTiet)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TietBatDau)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.GIANGVIEN.TenGiangVien)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.KHOAHOC.TenKhoaHoc)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PHONGHOC.LoaiPhongHoc)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ChiTietID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ChiTietID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ChiTietID })
+        </td>
+    </tr>
+}
+
+</table>

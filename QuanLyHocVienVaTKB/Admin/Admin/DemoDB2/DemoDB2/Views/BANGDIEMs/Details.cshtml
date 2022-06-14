@@ -1,0 +1,71 @@
+﻿@model DemoDB2.Models.BANGDIEM
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 class="h3 mb-2 text-gray-800">Bảng điểm chi tiết</h1>
+
+<table class="table table-bordered " id="dataTable" width="100%" cellspacing="0">
+    <thead>
+        <tr>
+            <th>Họ tên </th>
+            <th>Tên khóa học</th>
+            <th>Điểm 1</th>
+            <th>Điểm 2</th>
+            <th>Điểm 3</th>
+            <th>Tổng điểm</th>
+            <th>Xếp loại</th>
+            <th>Lần thi</th>
+
+        </tr>
+    </thead>
+
+    <tbody>
+
+        <tr>
+            <td>
+                @Html.DisplayFor(model => model.HOCVIEN.HoTen)
+            </td>
+            
+            <td>
+                @Html.DisplayFor(model => model.CHITIETKHOAHOC.KHOAHOC.TenKhoaHoc)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.Diem1)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.Diem2)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.Diem3)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.TongDiem)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.XepLoai)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.LanThi)
+            </td>
+        </tr>
+
+    </tbody>
+</table>
+    </table>
+<ul>
+    <li>
+        @Html.ActionLink("Sửa", "Edit", new { id = Model.BangDiemID }, new { @class = "btn btn-primary" })
+    </li>
+    <li>
+        @Html.ActionLink("Quay về danh sách", "Index", new { @class = "btn btn-default" })
+    </li>
+
+</ul>
+<div style="margin-bottom:450px">
+</div>
+
+
+

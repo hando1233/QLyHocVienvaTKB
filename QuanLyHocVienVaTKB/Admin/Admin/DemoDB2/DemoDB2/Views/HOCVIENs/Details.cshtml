@@ -1,0 +1,74 @@
+﻿@model DemoDB2.Models.HOCVIEN
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 class="h3 mb-2 text-gray-800">Thông tin học viên</h1>
+
+<table class="table table-bordered " id="dataTable" width="100%" cellspacing="0">
+    <thead>
+        <tr>
+            <th>STT</th>
+            <th>Họ tên học viên</th>
+            <th>Địa chỉ</th>
+            <th>Số điện thoại</th>
+            <th>Ngày sinh</th>
+            <th>Email</th>
+            <th>Giới tính</th>
+            <th>Tên đăng nhập</th>
+            <th>Mật khẩu</th>
+
+        </tr>
+    </thead>
+
+    <tbody>
+
+        <tr>
+            <td>
+                @Html.DisplayFor(model => model.HocVienID)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.HoTen)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.DiaChi)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.SoDienThoai)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.NgaySinh)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.GioiTinh)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.UserName)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.Password)
+            </td>
+        </tr>
+
+    </tbody>
+</table>
+    </table>
+<ul>
+    <li>
+        @Html.ActionLink("Sửa", "Edit", new { id = Model.HocVienID }, new { @class = "btn btn-primary" })
+    </li>
+    <li>
+        @Html.ActionLink("Quay về danh sách", "Index", new { @class = "btn btn-default" })
+    </li>
+
+</ul>
+<div style="margin-bottom:450px">
+</div>
+
+
+
