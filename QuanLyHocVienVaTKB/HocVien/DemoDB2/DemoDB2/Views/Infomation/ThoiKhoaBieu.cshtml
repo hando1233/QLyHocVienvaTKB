@@ -34,7 +34,7 @@
                             <th>Ngày bắt đầu khóa học</th>
                             <th>Ngày kết thúc khóa học</th>
 
-                            <th></th>
+                           
                         </tr>
                     </thead>
 
@@ -79,11 +79,7 @@
                                     @Html.DisplayFor(modelItem => item.CHITIETKHOAHOC.NgayKetThucKhoaHoc)
                                 </td>
 
-                                <td>
-                                    @Html.ActionLink("Sửa", "Edit", new { id = item.ThoiKhoaBieuID }, new { @class = "btn btn-primary" })
-                                    @Html.ActionLink("Chi tiết", "Details", new { id = item.ThoiKhoaBieuID }, new { @class = "btn btn-warning" })
-                                    @Html.ActionLink("Xóa", "Delete", new { id = item.ThoiKhoaBieuID }, new { @class = "btn btn-danger" })
-                                </td>
+                               
                             </tr>
                         }
                     </tbody>
